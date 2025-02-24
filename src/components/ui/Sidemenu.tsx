@@ -1,51 +1,51 @@
 "use client";
 import { AnimatePresence, motion } from "framer-motion";
-import Image from "next/image";
+// import Image from "next/image";
 
-import Link from "next/link";
+// import Link from "next/link";
 import React, { useEffect } from "react";
 
-import { izrada } from "@/data";
+// import { izrada } from "@/data";
 
 interface SidemenuProps {
   open: boolean;
   setOpen: (open: boolean) => void;
 }
 
-const menuItems = [
-  {
-    name: "Početna",
-    link: "/",
-  },
-  {
-    name: "O Nama",
-    link: "/o-nama",
-  },
-  {
-    name: "Kontakt",
-    link: "/kontakt",
-  },
-];
+// const menuItems = [
+//   {
+//     name: "Početna",
+//     link: "/",
+//   },
+//   {
+//     name: "O Nama",
+//     link: "/o-nama",
+//   },
+//   {
+//     name: "Kontakt",
+//     link: "/kontakt",
+//   },
+// ];
 
-const flagsItems = [
-  {
-    alt: "Tehnoplast Lapovo PVC Stolarija, ALU Stolarija Srbija",
-    link: "sr",
-    imgSrc: "/images/serbia.png",
-  },
-  {
-    alt: "Tehnoplast Lapovo PVC Stolarija, ALU Stolarija Nemačka",
-    link: "de",
-    imgSrc: "/images/germany.png",
-  },
-  {
-    alt: "Tehnoplast Lapovo PVC Stolarija, ALU Stolarija Francuska",
-    link: "fr",
-    imgSrc: "/images/france.png",
-  },
-];
+// const flagsItems = [
+//   {
+//     alt: "Tehnoplast Lapovo PVC Stolarija, ALU Stolarija Srbija",
+//     link: "sr",
+//     imgSrc: "/images/serbia.png",
+//   },
+//   {
+//     alt: "Tehnoplast Lapovo PVC Stolarija, ALU Stolarija Nemačka",
+//     link: "de",
+//     imgSrc: "/images/germany.png",
+//   },
+//   {
+//     alt: "Tehnoplast Lapovo PVC Stolarija, ALU Stolarija Francuska",
+//     link: "fr",
+//     imgSrc: "/images/france.png",
+//   },
+// ];
 
-const Sidemenu: React.FC<SidemenuProps> = ({ open, setOpen }) => {
+const Sidemenu: React.FC<SidemenuProps> = ({ open }) => {
   useEffect(() => {
     if (open) {
       const width = document.body.clientWidth;

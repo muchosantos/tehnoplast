@@ -3,7 +3,7 @@ import { BoxProps, Category, Products, ProductsProps, VrataProducts } from "./ty
 const izrada: Category[] = [
   {
     category: "Prozori",
-    link: "/sr/prozori",
+    link: "/prozori",
     description:
       "U ponudi imamo ALU, PVC i ALU-KLIP prozore, koji kombinuju kvalitetne materijale i moderni dizajn za maksimalnu funkcionalnost i udobnost.",
     items: [
@@ -38,7 +38,7 @@ const izrada: Category[] = [
   },
   {
     category: "Vrata",
-    link: "/sr/vrata",
+    link: "/vrata",
     description:
       "Nudimo ALU, PVC i vrata sa skrivenim krilom, koja spajaju vrhunske materijale i moderan dizajn, pružajući visoku sigurnost, funkcionalnost i estetiku.",
     items: [
@@ -62,7 +62,7 @@ const izrada: Category[] = [
   },
   {
     category: "Sistemi ostakljivanja",
-    link: "/sr/sistemi-ostakljivanja",
+    link: "/sistemi-ostakljivanja",
     description:
       "Eralux rešenja kombinuju moderan dizajn, visok nivo sigurnosti, funkcionalnost i estetsku perfekciju, prilagođena vašim potrebama.",
     items: [
@@ -106,7 +106,7 @@ const izrada: Category[] = [
   },
   {
     category: "Fasade",
-    link: "/sr/fasade",
+    link: "/fasade",
     description:
       "Izdržljive, energetski efikasne i estetski prilagodljive, naše fasade pružaju dugotrajnu zaštitu i moderan izgled svakom objektu.",
     items: [
@@ -146,7 +146,7 @@ const izrada: Category[] = [
   },
   {
     category: "Pergole",
-    link: "/sr/pergole",
+    link: "/pergole",
     description:
       "Savršeno rešenje za zaštitu od sunca i kiše, naše pergole spajaju funkcionalnost i moderan dizajn, pružajući udobnost i eleganciju u svakom eksterijeru.",
     items: [
@@ -178,7 +178,7 @@ const izrada: Category[] = [
   },
   {
     category: "Klizni sistemi",
-    link: "/sr/klizni-sistemi",
+    link: "/klizni-sistemi",
     description:
       "Naši klizni sistemi, uključujući podizno-klizne, uskočno-klizne, klasične i akordion sisteme, pružaju maksimalnu funkcionalnost, elegantan dizajn i optimalnu iskorišćenost prostora.",
     items: [
@@ -202,7 +202,7 @@ const izrada: Category[] = [
   },
   {
     category: "Garažna vrata",
-    link: "/sr/garazna-vrata",
+    link: "/garazna-vrata",
     description:
       "Garažna vrata predstavljaju idealno rešenje za sigurnost, funkcionalnost i estetiku vašeg prostora. Kombinuju visokokvalitetne materijale sa modernim mehanizmima za dugotrajnu upotrebu i pouzdanost.",
     items: [
@@ -225,14 +225,14 @@ const izrada: Category[] = [
   },
   {
     category: "Ograde i gelenderi",
-    link: "/sr/ograde-i-gelenderi",
+    link: "/ograde-i-gelenderi",
     description:
       "Ograde i gelenderi su savršeno rešenje za sigurnost, estetiku i funkcionalnost vašeg prostora. Spoj visokokvalitetnih materijala i savremenog dizajna osigurava dugotrajnost, stabilnost i elegantan izgled.",
     items: [{ title: "Pogledajte naše radove", list: [] }],
   },
   {
     category: "Prateća oprema",
-    link: "/sr/prateca-oprema",
+    link: "/prateca-oprema",
     description:
       "Prateća oprema omogućava dodatnu zaštitu, funkcionalnost i udobnost, prilagođavajući vaše prozore i vrata savremenim potrebama.",
     items: [
