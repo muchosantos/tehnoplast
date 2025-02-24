@@ -4,7 +4,7 @@ import CategoryHero from "@/components/ui/CategoryHero";
 
 import Overview from "@/components/ui/Overview";
 import ProductCarousel from "@/components/ui/ProductCarousel";
-import { vrata } from "@/data";
+import {  vrataAlu, vrataSK } from "@/data";
 
 export default function Vrata() {
   return (
@@ -20,7 +20,7 @@ export default function Vrata() {
           accord={false}
           accordData={null}
           btn={false}
-          title="Alu paneli"
+          title="Aluminijumska vrata"
           subtitle="Naši proizvodi u izgradnji nosivih konstrukcija i u svim vrstama ograda, kako u industrijskom tako i u privatnom sektoru."
           text="Ukoliko imate dodatnih pitanja budite slobodni da nas kontaktirate."
           btnText="Kontakt"
@@ -31,10 +31,10 @@ export default function Vrata() {
 
 
         <div className="wrapper">
-          <ProductCarousel data={vrata} />
+          <ProductCarousel data={vrataAlu} />
         </div>
 
-        <Overview
+        {/* <Overview
           accord={false}
           accordData={null}
           btn={false}
@@ -48,7 +48,7 @@ export default function Vrata() {
 
         <div className="wrapper">
           <ProductCarousel data={vrata} />
-        </div>
+        </div> */}
 
         <Overview
           accord={false}
@@ -62,7 +62,7 @@ export default function Vrata() {
         />
 
         <div className="wrapper">
-          <ProductCarousel data={vrata} />
+          <ProductCarousel data={vrataSK} />
         </div>
       </main>
     </MainLayout>

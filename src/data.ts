@@ -399,7 +399,7 @@ const prozori: Products[] = [
   },
 ];
 
-const vrata: VrataProducts[] = [
+const vrataSK: VrataProducts[] = [
   {
     title: "SK 01",
     imageSrc: "/images/vrata/sk01.png",
@@ -482,7 +482,213 @@ const vrata: VrataProducts[] = [
   },
 ];
 
-export { izrada, proces, prozori, vrata };
+const vrataAlu: VrataProducts[] = [
+  {
+    title: "IN 01",
+    imageSrc: "/images/vrata/in01.png",
+  },
+  {
+    title: "IN 02",
+    imageSrc: "/images/vrata/in02.png",
+  },
+  {
+    title: "IN 03",
+    imageSrc: "/images/vrata/in03.png",
+  },
+  {
+    title: "IN 04",
+    imageSrc: "/images/vrata/in04.png",
+  },
+  {
+    title: "IN 05",
+    imageSrc: "/images/vrata/in05.png",
+  },
+  {
+    title: "IN 06",
+    imageSrc: "/images/vrata/in06.png",
+  },
+  {
+    title: "IN 07",
+    imageSrc: "/images/vrata/in07.png",
+  },
+  {
+    title: "IN 08",
+    imageSrc: "/images/vrata/in08.png",
+  },
+  {
+    title: "IN 09",
+    imageSrc: "/images/vrata/in09.png",
+  },
+  {
+    title: "IN 10",
+    imageSrc: "/images/vrata/in10.png",
+  },
+  {
+    title: "IN 11",
+    imageSrc: "/images/vrata/in11.png",
+  },
+  {
+    title: "IN 12",
+    imageSrc: "/images/vrata/in12.png",
+  },
+  {
+    title: "IN 13",
+    imageSrc: "/images/vrata/in13.png",
+  },
+  {
+    title: "IN 14",
+    imageSrc: "/images/vrata/in14.png",
+  },
+  {
+    title: "IN 15",
+    imageSrc: "/images/vrata/in15.png",
+  },
+  {
+    title: "IN 16",
+    imageSrc: "/images/vrata/in16.png",
+  },
+  {
+    title: "IN 17",
+    imageSrc: "/images/vrata/in17.png",
+  },
+  {
+    title: "IN 18",
+    imageSrc: "/images/vrata/in18.png",
+  },
+  {
+    title: "IN 19",
+    imageSrc: "/images/vrata/in19.png",
+  },
+  {
+    title: "IN 20",
+    imageSrc: "/images/vrata/in20.png",
+  },
+  {
+    title: "IN 21",
+    imageSrc: "/images/vrata/in21.png",
+  },
+  {
+    title: "IN 22",
+    imageSrc: "/images/vrata/in22.png",
+  },
+  {
+    title: "IN 23",
+    imageSrc: "/images/vrata/in23.png",
+  },
+  {
+    title: "IN 24",
+    imageSrc: "/images/vrata/in24.png",
+  },
+  {
+    title: "IN 25",
+    imageSrc: "/images/vrata/in25.png",
+  },
+  {
+    title: "IN 26",
+    imageSrc: "/images/vrata/in26.png",
+  },
+  {
+    title: "IN 27",
+    imageSrc: "/images/vrata/in27.png",
+  },
+  {
+    title: "IN 28",
+    imageSrc: "/images/vrata/in28.png",
+  },
+  {
+    title: "IN 29",
+    imageSrc: "/images/vrata/in29.png",
+  },
+  {
+    title: "IN 30",
+    imageSrc: "/images/vrata/in30.png",
+  },
+  {
+    title: "IN 31",
+    imageSrc: "/images/vrata/in31.png",
+  },
+  {
+    title: "IN 32",
+    imageSrc: "/images/vrata/in32.png",
+  },
+  ...Array.from({ length: 30 }, (_, i) => ({
+    title: `Alu ${String(i + 1).padStart(2, "0")}`,
+    imageSrc: `/images/vrata/al${String(i + 1).padStart(2, "0")}.png`,
+  })),
+]
+
+const kontakt: Category[] = [
+  {
+    category: "Tehnoplast Lapovo",
+    link: "",
+
+    description:
+      "Naša strategija omogućava optimizaciju komunikacije, prilagođavanje poslovnim potrebama i usklađivanje sa vašim brendom. Kreiranjem funkcionalnih i estetski usklađenih rešenja, pomažemo vam da ostvarite bolju povezanost sa klijentima, povećate produktivnost i ojačate prepoznatljivost na tržištu.",
+    items: [
+      {
+        title: "Kontakt",
+        list: ["+381 62 466 555", "office@tehnoplast.co.rs"],
+      },
+      {
+        title: "Office",
+        list: ["Kosovskih junaka 20, 34220 Lapovo, Srbija"],
+      },
+    ],
+  },
+  {
+    category: "Tehnoplast Finansije",
+    link: "",
+
+    description:
+      "Naša strategija omogućava optimizaciju komunikacije, prilagođavanje poslovnim potrebama i usklađivanje sa vašim brendom. Kreiranjem funkcionalnih i estetski usklađenih rešenja, pomažemo vam da ostvarite bolju povezanost sa klijentima, povećate produktivnost i ojačate prepoznatljivost na tržištu.",
+    items: [
+      {
+        title: "Kontakt",
+        list: ["+381 69 466 555", "finansije@tehnoplast.co.rs"],
+      },
+      {
+        title: "Office",
+        list: ["Kosovskih junaka 20, 34220 Lapovo, Srbija"],
+      },
+    ],
+  },
+  {
+    category: "Tehnoplast Požarevac",
+    link: "",
+
+    description:
+      "Naša strategija omogućava optimizaciju komunikacije, prilagođavanje poslovnim potrebama i usklađivanje sa vašim brendom. Kreiranjem funkcionalnih i estetski usklađenih rešenja, pomažemo vam da ostvarite bolju povezanost sa klijentima, povećate produktivnost i ojačate prepoznatljivost na tržištu.",
+    items: [
+      {
+        title: "Kontakt",
+        list: ["+381 62 159 9173", "pozarevac@tehnoplast.co.rs"],
+      },
+      {
+        title: "Office",
+        list: ["Nemanjina, 12000 Požarevac, Srbija"],
+      },
+    ],
+  },
+  {
+    category: "Krefeld Diesseldorf, Germany",
+    link: "",
+
+    description:
+      "Naša strategija omogućava optimizaciju komunikacije, prilagođavanje poslovnim potrebama i usklađivanje sa vašim brendom. Kreiranjem funkcionalnih i estetski usklađenih rešenja, pomažemo vam da ostvarite bolju povezanost sa klijentima, povećate produktivnost i ojačate prepoznatljivost na tržištu.",
+    items: [
+      {
+        title: "Kontakt",
+        list: ["+381 62 159 9173", "pozarevac@tehnoplast.co.rs"],
+      },
+      {
+        title: "Office",
+        list: ["Krefeld Diesseldorf, Germany"],
+      },
+    ],
+  },
+]
+
+export { izrada, proces, prozori, vrataSK, vrataAlu, kontakt };
 
 export const sistemiOstakljivanja: BoxProps[] = [
   {
