@@ -19,7 +19,7 @@ export default function OgradeIGelenderi() {
           accordData={null}
           btn={false}
           title="Ograde i gelenderi"
-          subtitle="Naši proizvodi u izgradnji nosivih konstrukcija i u svim vrstama ograda, kako u industrijskom tako i u privatnom sektoru."
+          subtitle="Sigurno i estetski prilagodljivo rešenje koje kombinuje dugotrajnost, funkcionalnost i moderan dizajn. Idealni za stambene i poslovne objekte, pružaju zaštitu uz elegantan vizuelni efekat."
           text="Ukoliko imate dodatnih pitanja budite slobodni da nas kontaktirate."
           btnText="Kontakt"
           link="link"

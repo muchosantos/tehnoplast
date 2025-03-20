@@ -37,7 +37,7 @@ export default function Prozori() {
           accordData={null}
           btn={false}
           title="PVC prozori"
-          subtitle="Naši proizvodi u izgradnji nosivih konstrukcija i u svim vrstama ograda, kako u industrijskom tako i u privatnom sektoru."
+          subtitle="Naši prozori pružaju pouzdanost i dugotrajnost u svim vrstama objekata, bilo da se radi o industrijskim ili privatnim prostorima. Kvalitetna izrada i savremeni materijali garantuju sigurnost i estetsku vrednost."
           text="Ukoliko imate dodatnih pitanja budite slobodni da nas kontaktirate."
           btnText="Kontakt"
           link="link"
@@ -53,7 +53,7 @@ export default function Prozori() {
           accordData={null}
           btn={false}
           title="Alu klip prozori"
-          subtitle="Naši proizvodi u izgradnji nosivih konstrukcija i u svim vrstama ograda, kako u industrijskom tako i u privatnom sektoru."
+          subtitle="Naši alu klip prozori kombinuju izdržljivost aluminijuma sa modernim dizajnom, pružajući dugotrajna i estetski prilagođena rešenja za industrijske i stambene objekte. Idealni su za savremene prostore koji zahtevaju funkcionalnost i vrhunski kvalitet."
           text="Ukoliko imate dodatnih pitanja budite slobodni da nas kontaktirate."
           btnText="Kontakt"
           link="link"

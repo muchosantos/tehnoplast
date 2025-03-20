@@ -19,7 +19,7 @@ export default function Pergole() {
           accordData={null}
           btn={false}
           title="Tekstilne pergole"
-          subtitle="Naši proizvodi u izgradnji nosivih konstrukcija i u svim vrstama ograda, kako u industrijskom tako i u privatnom sektoru."
+          subtitle="Fleksibilno i elegantno rešenje za zaštitu od sunca i vremenskih uslova, idealno za terase, bašte i otvorene prostore. Kombinuju moderan dizajn sa funkcionalnošću, pružajući udobnost, hladovinu i estetski doprinos eksterijeru."
           text="Ukoliko imate dodatnih pitanja budite slobodni da nas kontaktirate."
           btnText="Kontakt"
           link="link"
@@ -35,7 +35,7 @@ export default function Pergole() {
           accordData={null}
           btn={false}
           title="Bioklimatske pergole"
-          subtitle="Naši proizvodi u izgradnji nosivih konstrukcija i u svim vrstama ograda, kako u industrijskom tako i u privatnom sektoru."
+          subtitle="Inovativno rešenje koje omogućava prirodnu regulaciju svetlosti, ventilacije i zaštite od vremenskih uslova. Sa podesivim lamelama, pružaju savršen balans između hlada i prozračnosti, čineći svaki eksterijer funkcionalnim i estetski atraktivnim."
           text="Ukoliko imate dodatnih pitanja budite slobodni da nas kontaktirate."
           btnText="Kontakt"
           link="link"
@@ -51,7 +51,7 @@ export default function Pergole() {
           accordData={null}
           btn={false}
           title="Stakleni krov - pergole"
-          subtitle="Naši proizvodi u izgradnji nosivih konstrukcija i u svim vrstama ograda, kako u industrijskom tako i u privatnom sektoru."
+          subtitle="Elegantno i dugotrajno rešenje koje omogućava maksimalan prodor prirodne svetlosti uz zaštitu od vremenskih uslova. Idealno za moderne eksterijere, stvara prozračan i sofisticiran prostor sa osećajem otvorenosti i udobnosti."
           text="Ukoliko imate dodatnih pitanja budite slobodni da nas kontaktirate."
           btnText="Kontakt"
           link="link"

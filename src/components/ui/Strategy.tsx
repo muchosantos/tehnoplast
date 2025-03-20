@@ -1,5 +1,6 @@
 import React from "react";
-import Button from "./MainButton";
+
+import MainButton from "./MainButton";
 
 interface StrategyProps {
   title: string;
@@ -28,7 +29,7 @@ const Strategy: React.FC<StrategyProps> = ({
       {btn && (
         <>
           <h3 className="mb-8 text-[18px]">{text}</h3>
-          <Button title={btnText} link={link} />
+          <MainButton title={btnText} link={link} />
         </>
       )}
     </section>

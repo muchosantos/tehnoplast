@@ -19,7 +19,7 @@ export default function GaraznaVrata() {
           accordData={null}
           btn={false}
           title="Segmentna garažna vrata"
-          subtitle="Naši proizvodi u izgradnji nosivih konstrukcija i u svim vrstama ograda, kako u industrijskom tako i u privatnom sektoru."
+          subtitle="Praktično i pouzdano rešenje koje štedi prostor i obezbeđuje vrhunsku termo i zvučnu izolaciju. Sa modernim dizajnom i glatkim mehanizmom otvaranja, idealna su za sigurnost, funkcionalnost i estetski izgled garažnih prostora."
           text="Ukoliko imate dodatnih pitanja budite slobodni da nas kontaktirate."
           btnText="Kontakt"
           link="link"
@@ -35,7 +35,7 @@ export default function GaraznaVrata() {
           accordData={null}
           btn={false}
           title="Rolo garažna vrata"
-          subtitle="Naši proizvodi u izgradnji nosivih konstrukcija i u svim vrstama ograda, kako u industrijskom tako i u privatnom sektoru."
+          subtitle="Kompaktno i efikasno rešenje koje omogućava maksimalnu uštedu prostora uz jednostavan mehanizam otvaranja. Odlikuju se visokom izdržljivošću, termoizolacijom i sigurnošću, čineći ih idealnim za garaže različitih dimenzija."
           text="Ukoliko imate dodatnih pitanja budite slobodni da nas kontaktirate."
           btnText="Kontakt"
           link="link"

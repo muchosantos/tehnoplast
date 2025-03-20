@@ -14,16 +14,16 @@ export default function Home() {
         <Hero
           heading="Potpuno rešenje za izradu i ugradnju PVC & ALU stolarije"
           description="Tehnoplast je specijalizovan za dizajn, proizvodnju i ugradnju PVC i ALU stolarije, pružajući kvalitetna rešenja za domove i poslovne prostore širom Evrope."
-          image='/images/hero/hero.jpg'
+          image="/images/hero/hero.jpg"
         />
         <Overview
           accord={true}
           accordData={izrada}
           title="Beskompromisna izrada"
-          subtitle="Mi oblikujemo prostore po meri, pretvarajući vizije u stvarnost kroz preciznu izradu i vrhunske materijale. Svaki naš proizvod je spoj estetike, funkcionalnosti i inovacije, prilagođen jedinstvenim potrebama naših klijenata."
+          subtitle="Svaki prostor prilagođavamo vašim željama, pretvarajući ideje u stvarnost pažljivom izradom i vrhunskim materijalima. Naši proizvodi kombinuju dizajn, funkcionalnost i kvalitet, pružajući rešenja skrojena po meri svakog klijenta."
           text="Ukoliko imate dodatnih pitanja budite slobodni da nas kontaktirate."
           btnText="Kontakt"
-          link="link"
+          link="/kontakt"
           btn={true}
           showLink={true}
         />
@@ -36,7 +36,7 @@ export default function Home() {
           subtitle="Naši proizvodi u izgradnji nosivih konstrukcija i u svim vrstama ograda, kako u industrijskom tako i u privatnom sektoru."
           text="Ukoliko imate dodatnih pitanja budite slobodni da nas kontaktirate."
           btnText="Kontakt"
-          link="link"
+          link="/kontakt"
           showLink={false}
         />
 
@@ -47,14 +47,15 @@ export default function Home() {
         <Overview
           accord={true}
           accordData={proces}
-          btn={true}
+          btn={false}
           title="Širom Evrope"
           subtitle="Oblikujemo prostore širom Evrope, spajajući savremeni dizajn, vrhunsku izradu i visokokvalitetne materijale. Naši projekti u Nemačkoj, Francuskoj i Srbiji odražavaju posvećenost detaljima, funkcionalnosti i inovacijama, pružajući rešenja prilagođena specifičnim potrebama klijenata."
           text="Ukoliko imate dodatnih pitanja budite slobodni da nas kontaktirate."
           btnText="Kontakt"
-          link="link"
+          link="/kontakt"
           showLink={false}
         />
+      
       </main>
     </MainLayout>
   );

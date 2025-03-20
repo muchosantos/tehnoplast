@@ -21,7 +21,7 @@ export default function Vrata() {
           accordData={null}
           btn={false}
           title="Aluminijumska vrata"
-          subtitle="Naši proizvodi u izgradnji nosivih konstrukcija i u svim vrstama ograda, kako u industrijskom tako i u privatnom sektoru."
+          subtitle="Naša aluminijumska vrata nude savršen spoj čvrstoće, elegancije i dugotrajnosti, prilagođena kako industrijskim, tako i stambenim objektima. Sa modernim dizajnom i vrhunskom izradom, pružaju sigurnost, funkcionalnost i estetsku vrednost."
           text="Ukoliko imate dodatnih pitanja budite slobodni da nas kontaktirate."
           btnText="Kontakt"
           link="link"
@@ -55,7 +55,7 @@ export default function Vrata() {
           accordData={null}
           btn={false}
           title="Skriveno krilo - sistemi"
-          subtitle="Naši proizvodi u izgradnji nosivih konstrukcija i u svim vrstama ograda, kako u industrijskom tako i u privatnom sektoru."
+          subtitle="Sistemi sa skrivenim krilom pružaju moderan i sofisticiran izgled, omogućavajući veću površinu stakla i više prirodne svetlosti. Sa čistim linijama i diskretnim okvirom, idealni su za savremene objekte koji teže minimalizmu i funkcionalnosti."
           text="Ukoliko imate dodatnih pitanja budite slobodni da nas kontaktirate."
           btnText="Kontakt"
           link="link"

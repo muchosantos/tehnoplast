@@ -4,10 +4,9 @@ import Gallery from "@/components/ui/Gallery";
 import Overview from "@/components/ui/Overview";
 import { pratecaProducts } from "@/data";
 
-
 export default function PratecaOprema() {
   return (
-    <MainLayout color='white'>
+    <MainLayout color="white">
       <main>
         <CategoryHero
           heading="Tehnoplast Prateća oprema"
@@ -16,13 +15,12 @@ export default function PratecaOprema() {
           color="#fff"
         />
 
-
-<Overview
+        <Overview
           accord={false}
           accordData={null}
           btn={false}
           title="Sanitrane pregrade, komarnici i zaštita od sunca"
-          subtitle="Naši proizvodi u izgradnji nosivih konstrukcija i u svim vrstama ograda, kako u industrijskom tako i u privatnom sektoru."
+          subtitle="Praktična i efikasna rešenja koja obezbeđuju privatnost, zaštitu od insekata i kontrolu sunčeve svetlosti. Idealan izbor za funkcionalne i udobne prostore, uz dugotrajnost i jednostavno održavanje."
           text="Ukoliko imate dodatnih pitanja budite slobodni da nas kontaktirate."
           btnText="Kontakt"
           link="link"
@@ -30,10 +28,8 @@ export default function PratecaOprema() {
         />
 
         <div className="wrapper">
-          <Gallery data={pratecaProducts} /> 
+          <Gallery data={pratecaProducts} />
         </div>
-
-
       </main>
     </MainLayout>
   );

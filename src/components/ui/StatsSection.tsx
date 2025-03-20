@@ -1,10 +1,10 @@
 import React from "react";
 
 const stats = [
-    {title: '100+', description: 'Zaposlenih' ,text:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, inventore.'},
-    {title: '30', description: 'Godina iskustva' ,text:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, inventore.'},
-    {title: '1000+', description: 'Projekata' ,text:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, inventore.'},
-    {title: '100%', description: 'Zadovoljnih klijenata' ,text:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, inventore.'},
+    {title: '100+', description: 'Zaposlenih' ,text:'Stručan tim posvećen inovacijama i vrhunskim rezultatima u svakom projektu.'},
+    {title: '30', description: 'Godina iskustva' ,text:'Tri decenije stručnosti, posvećenosti i uspeha u industriji.'},
+    {title: '1000+', description: 'Projekata' ,text:'Hiljade uspešno završenih projekata uz posvećenost i preciznost.'},
+    {title: '100%', description: 'Zadovoljnih klijenata' ,text:'Naš prioritet je svaki klijent – poverenje, kvalitet i dugoročna saradnja.'},
 ]
 
 const StatsSection: React.FC = () => {
