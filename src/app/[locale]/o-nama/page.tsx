@@ -2,15 +2,18 @@ import MainLayout from "@/components/layout/MainLayout";
 import CategoryHero from "@/components/ui/CategoryHero";
 import Overview from "@/components/ui/Overview";
 import StatsSection from "@/components/ui/StatsSection";
-import { kontakt, proces } from "@/data";
+import { useTranslations } from "next-intl";
 
 export default function ONama() {
+      const t = useTranslations("O-nama");
+      const kontakt = t.raw("kontakt");
+      const proces = t.raw("proces");
   return (
     <MainLayout color="white">
       <main>
         <CategoryHero
-          heading="Tehnoplast PVC i ALU stolarija."
-          description="Tehnoplast je specijalizovan za dizajn, proizvodnju i ugradnju PVC i ALU stolarije, pružajući kvalitetna rešenja za domove i poslovne prostore širom Evrope."
+          heading={t("mainTitle")}
+          description={t("mainSubtitle")}
           image="/images/hero/onama.png"
           color="#fff"
         />
@@ -19,8 +22,8 @@ export default function ONama() {
           accord={true}
           accordData={proces}
           btn={true}
-          title="Širom Evrope"
-          subtitle="Svaki prostor prilagođavamo vašim željama, pretvarajući ideje u stvarnost pažljivom izradom i vrhunskim materijalima. Naši proizvodi kombinuju dizajn, funkcionalnost i kvalitet, pružajući rešenja skrojena po meri svakog klijenta."
+          title={t('heading1')}
+          subtitle={t('subheading1')}
           text="Ukoliko imate dodatnih pitanja budite slobodni da nas kontaktirate."
           btnText="Kontakt"
           link="/kontakt"
@@ -34,8 +37,8 @@ export default function ONama() {
         <Overview
           accord={true}
           accordData={kontakt}
-          title="Beskompromisna izrada"
-          subtitle="Mi oblikujemo prostore po meri, pretvarajući vizije u stvarnost kroz preciznu izradu i vrhunske materijale. Svaki naš proizvod je spoj estetike, funkcionalnosti i inovacije, prilagođen jedinstvenim potrebama naših klijenata."
+          title={t('heading2')}
+          subtitle={t('subheading2')}
           text="Ukoliko imate dodatnih pitanja budite slobodni da nas kontaktirate."
           btnText="Kontakt"
           link="link"

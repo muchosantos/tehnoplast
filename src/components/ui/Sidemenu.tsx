@@ -1,87 +1,53 @@
 "use client";
+
 import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/navigation";
 import React, { useEffect } from "react";
+import { useRouter, usePathname } from "next/navigation";
+import { useTranslations } from "next-intl";
 
 interface SidemenuProps {
   open: boolean;
   setOpen: (open: boolean) => void;
 }
 
-const products = [
-  {
-    name: "Prozori",
-    link: "/prozori",
-  },
-  {
-    name: "Vrata",
-    link: "/vrata",
-  },
-  {
-    name: "Sistemi ostakljivanja",
-    link: "/sistemi-ostakljivanja",
-  },
-  {
-    name: "Fasade",
-    link: "/fasade",
-  },
-  {
-    name: "Pergole",
-    link: "/pergole",
-  },
-  {
-    name: "Klizni sistemi",
-    link: "/klizni-sistemi",
-  },
-  {
-    name: "Garažna vrata",
-    link: "/garazna-vrata",
-  },
-  {
-    name: "Ograde i gelenderi",
-    link: "/ograde-i-gelenderi",
-  },
-  {
-    name: "Prateća oprema",
-    link: "/prateca-oprema",
-  },
-];
-
-const linx = [
-  {
-    name: "Početna",
-    link: "/",
-  },
-  {
-    name: "O nama",
-    link: "/o-nama",
-  },
-  {
-    name: "Kontakt",
-    link: "/kontakt",
-  },
-];
+type LinkItem = {
+  name: string;
+  link: string;
+};
 
 const flagsItems = [
   {
     alt: "Tehnoplast Lapovo PVC Stolarija, ALU Stolarija Srbija",
     link: "sr",
-    imgSrc: "/images/serbia.png",
+    imgSrc: "/images/serbia.png"
   },
   {
     alt: "Tehnoplast Lapovo PVC Stolarija, ALU Stolarija Nemačka",
     link: "de",
-    imgSrc: "/images/germany.png",
+    imgSrc: "/images/germany.png"
   },
   {
     alt: "Tehnoplast Lapovo PVC Stolarija, ALU Stolarija Francuska",
     link: "fr",
-    imgSrc: "/images/france.png",
-  },
+    imgSrc: "/images/france.png"
+  }
 ];
 
 const Sidemenu: React.FC<SidemenuProps> = ({ open }) => {
+  const router = useRouter();
+  const pathname = usePathname();
+
+    const t = useTranslations("Menu");
+    const products:LinkItem[] = t.raw("products");
+    const linx:LinkItem[] = t.raw("linx");
+
+  const handleLocaleChange = (locale: string) => {
+    const pathWithoutLocale = pathname.replace(/^\/(sr|de|fr)/, "");
+    router.push(`/${locale}${pathWithoutLocale}`);
+  };
+
   useEffect(() => {
     if (open) {
       const width = document.body.clientWidth;
@@ -127,13 +93,16 @@ const Sidemenu: React.FC<SidemenuProps> = ({ open }) => {
 
               <div className="mb-4 hidden lg:block">
                 <span className="font-extralight text-[1rem] mb-4 block tracking-tight">
-                  Jezik
+                  {t('jezik')}
                 </span>
                 <ul className="flex gap-4 items-center">
                   {flagsItems.map((flag, i) => (
-                    <div key={i} className="relative cursor-pointer">
+                    <div
+                      key={i}
+                      className="relative cursor-pointer"
+                      onClick={() => handleLocaleChange(flag.link)}
+                    >
                       <Image
-                        key={i}
                         src={flag.imgSrc}
                         alt={flag.alt}
                         width={50}
@@ -146,13 +115,13 @@ const Sidemenu: React.FC<SidemenuProps> = ({ open }) => {
 
               <div className="hidden lg:block">
                 <span className="font-extralight text-[1rem] tracking-tight">
-                  Kontakt
+                  {t('kontakt')}
                 </span>
                 <a
                   href="mailto:finansije@tehnoplast.co.rs"
                   className="text-[18px] md:text-[26px] font-inter tracking-[-1px] font-semibold my-3 w-fit no-underline block text-[#f28c26] border-b border-[#f28c2681]"
                 >
-                  finansije@tehnoplast.co.rs{" "}
+                  finansije@tehnoplast.co.rs
                 </a>
                 <a
                   href="tel:+381694665590"
@@ -170,9 +139,12 @@ const Sidemenu: React.FC<SidemenuProps> = ({ open }) => {
                 </span>
                 <ul className="flex gap-4 items-center">
                   {flagsItems.map((flag, i) => (
-                    <div key={i} className="relative">
+                    <div
+                      key={i}
+                      className="relative cursor-pointer"
+                      onClick={() => handleLocaleChange(flag.link)}
+                    >
                       <Image
-                        key={i}
                         src={flag.imgSrc}
                         alt={flag.alt}
                         width={50}
@@ -192,7 +164,7 @@ const Sidemenu: React.FC<SidemenuProps> = ({ open }) => {
                     <Link
                       key={i}
                       href={product.link}
-                     className="block my-2 text-[1.3rem] md:text-[2rem] font-bold tracking-tight border-b w-fit border-transparent transition-all duration-300 hover:border-[#f28c26]"
+                      className="block my-2 text-[1.3rem] md:text-[2rem] font-bold tracking-tight border-b w-fit border-transparent transition-all duration-300 hover:border-[#f28c26]"
                     >
                       {product.name}
                     </Link>
@@ -208,7 +180,7 @@ const Sidemenu: React.FC<SidemenuProps> = ({ open }) => {
                   href="mailto:finansije@tehnoplast.co.rs"
                   className="text-[18px] md:text-[26px] font-inter tracking-[-1px] font-semibold my-3 w-fit no-underline block text-[#f28c26] border-b border-[#f28c2681]"
                 >
-                  finansije@tehnoplast.co.rs{" "}
+                  finansije@tehnoplast.co.rs
                 </a>
                 <a
                   href="tel:+381694665590"

@@ -4,15 +4,21 @@ import Gallery from "@/components/ui/Gallery";
 import Overview from "@/components/ui/Overview";
 // import CategoryBox from "@/components/ui/CategoryBox";
 
-import { aluklipProzoriProducts, aluProzoriProducts, pvcProzoriProducts } from "@/data";
+import {
+  aluklipProzoriProducts,
+  aluProzoriProducts,
+  pvcProzoriProducts,
+} from "@/data";
+import { useTranslations } from "next-intl";
 
 export default function Prozori() {
+  const t = useTranslations("Prozori");
   return (
     <MainLayout color="">
       <main>
         <CategoryHero
-          heading="Tehnoplast prozori"
-          description="U ponudi imamo ALU, PVC i ALU-KLIP prozore, koji kombinuju kvalitetne materijale i moderni dizajn za maksimalnu funkcionalnost i udobnost."
+          heading={t('mainTitle')}
+          description={t('mainSubtitle')}
           image="/images/midjoruney/prozor1.jpg"
         />
 
@@ -20,8 +26,8 @@ export default function Prozori() {
           accord={false}
           accordData={null}
           btn={false}
-          title="Aluminijumski prozori"
-          subtitle="Naši proizvodi u izgradnji nosivih konstrukcija i u svim vrstama ograda, kako u industrijskom tako i u privatnom sektoru."
+          title={t('prozori1title')}
+          subtitle={t('prozori1subtitle')}
           text="Ukoliko imate dodatnih pitanja budite slobodni da nas kontaktirate."
           btnText="Kontakt"
           link="link"
@@ -29,15 +35,15 @@ export default function Prozori() {
         />
 
         <div className="wrapper">
-          <Gallery data={aluProzoriProducts} /> 
+          <Gallery data={aluProzoriProducts} />
         </div>
 
         <Overview
           accord={false}
           accordData={null}
           btn={false}
-          title="PVC prozori"
-          subtitle="Naši prozori pružaju pouzdanost i dugotrajnost u svim vrstama objekata, bilo da se radi o industrijskim ili privatnim prostorima. Kvalitetna izrada i savremeni materijali garantuju sigurnost i estetsku vrednost."
+          title={t('prozori2title')}
+          subtitle={t('prozori2subtitle')}
           text="Ukoliko imate dodatnih pitanja budite slobodni da nas kontaktirate."
           btnText="Kontakt"
           link="link"
@@ -45,15 +51,15 @@ export default function Prozori() {
         />
 
         <div className="wrapper">
-          <Gallery data={pvcProzoriProducts} /> 
+          <Gallery data={pvcProzoriProducts} />
         </div>
 
         <Overview
           accord={false}
           accordData={null}
           btn={false}
-          title="Alu klip prozori"
-          subtitle="Naši alu klip prozori kombinuju izdržljivost aluminijuma sa modernim dizajnom, pružajući dugotrajna i estetski prilagođena rešenja za industrijske i stambene objekte. Idealni su za savremene prostore koji zahtevaju funkcionalnost i vrhunski kvalitet."
+          title={t('prozori3title')}
+          subtitle={t('prozori3subtitle')}
           text="Ukoliko imate dodatnih pitanja budite slobodni da nas kontaktirate."
           btnText="Kontakt"
           link="link"
@@ -61,7 +67,7 @@ export default function Prozori() {
         />
 
         <div className="wrapper">
-          <Gallery data={aluklipProzoriProducts} /> 
+          <Gallery data={aluklipProzoriProducts} />
         </div>
       </main>
     </MainLayout>

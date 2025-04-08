@@ -10,7 +10,7 @@ interface HeroProps {
 
 const Hero: React.FC<HeroProps> = ({ heading, description, image }) => {
   return (
-    <section className="w-full h-[800px] relative md:h-[700px] lg:h-[600px] xl:h-[700px] ">
+    <section className="w-full h-fit relative  xl:h-fit pb-10 ">
       <Image
         src={image}
         alt={"Tehnoplast Lapovo, PVC i ALU stolarija Srbija"}
@@ -21,8 +21,8 @@ const Hero: React.FC<HeroProps> = ({ heading, description, image }) => {
 
       <div className="wrapper h-full">
         <div className="pt-10 lg:pt-2">
-          <div className="text-white pr-6 md:pr-0 md:w-[400px] lg:w-[600px] xl:w-[800px]">
-            <h1 className="text-[46px] tracking-tight leading-[3.5rem] mb-8 mt-24 xl:text-[80px] xl:leading-[6rem]">
+          <div className="text-white pr-6 md:pr-0 md:w-[600px] lg:w-[600px] xl:w-[800px]">
+            <h1 className="text-[46px] tracking-tight leading-[3.5rem] mb-8 mt-24 xl:text-[70px] xl:leading-[6rem]">
               {heading}
             </h1>
             <p className="text-[18px] text-[#f4f4f4]  leading-[2.2rem] mb-12">

@@ -3,14 +3,16 @@ import CategoryHero from "@/components/ui/CategoryHero";
 import Gallery from "@/components/ui/Gallery";
 import Overview from "@/components/ui/Overview";
 import { bioklimatskenepergoleProducts, staklenikrovProducts, tekstilnepergoleProducts } from "@/data";
+import { useTranslations } from "next-intl";
 
 export default function Pergole() {
+     const t = useTranslations("Pergole");
   return (
     <MainLayout color="">
       <main>
         <CategoryHero
-          heading="Tehnoplast Pergole"
-          description="Eralux rešenja kombinuju moderan dizajn, visok nivo sigurnosti, funkcionalnost i estetsku perfekciju, prilagođena vašim potrebama."
+          heading={t('mainTitle')}
+          description={t('mainSubtitle')}
           image="/images/midjoruney/pergole.png"
         />
 
@@ -18,8 +20,8 @@ export default function Pergole() {
           accord={false}
           accordData={null}
           btn={false}
-          title="Tekstilne pergole"
-          subtitle="Fleksibilno i elegantno rešenje za zaštitu od sunca i vremenskih uslova, idealno za terase, bašte i otvorene prostore. Kombinuju moderan dizajn sa funkcionalnošću, pružajući udobnost, hladovinu i estetski doprinos eksterijeru."
+          title={t('title1')}
+          subtitle={t('subtitle1')}
           text="Ukoliko imate dodatnih pitanja budite slobodni da nas kontaktirate."
           btnText="Kontakt"
           link="link"
@@ -34,8 +36,8 @@ export default function Pergole() {
           accord={false}
           accordData={null}
           btn={false}
-          title="Bioklimatske pergole"
-          subtitle="Inovativno rešenje koje omogućava prirodnu regulaciju svetlosti, ventilacije i zaštite od vremenskih uslova. Sa podesivim lamelama, pružaju savršen balans između hlada i prozračnosti, čineći svaki eksterijer funkcionalnim i estetski atraktivnim."
+          title={t('title2')}
+          subtitle={t('subtitle2')}
           text="Ukoliko imate dodatnih pitanja budite slobodni da nas kontaktirate."
           btnText="Kontakt"
           link="link"
@@ -50,8 +52,8 @@ export default function Pergole() {
           accord={false}
           accordData={null}
           btn={false}
-          title="Stakleni krov - pergole"
-          subtitle="Elegantno i dugotrajno rešenje koje omogućava maksimalan prodor prirodne svetlosti uz zaštitu od vremenskih uslova. Idealno za moderne eksterijere, stvara prozračan i sofisticiran prostor sa osećajem otvorenosti i udobnosti."
+          title={t('title3')}
+          subtitle={t('subtitle3')}
           text="Ukoliko imate dodatnih pitanja budite slobodni da nas kontaktirate."
           btnText="Kontakt"
           link="link"

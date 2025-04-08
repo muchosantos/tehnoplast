@@ -1,23 +1,17 @@
-// import { getRequestConfig } from "next-intl/server";
-// import { notFound } from "next/navigation";
-// import { locales, defaultLocale } from "./config"; // ✅ Uvozimo podržane jezike
+import { notFound } from "next/navigation";
+import { getRequestConfig } from "next-intl/server";
 
-// export default getRequestConfig(async ({ requestLocale }) => {
-//   // Sačekaj `requestLocale`
-//   let locale = await requestLocale;
+export const locales = ["sr", "de", "fr"];
 
-//   // Ako `locale` nije validan, koristi `defaultLocale`
-//   if (!locale || !locales.includes(locale as (typeof locales)[number])) {
-//     locale = defaultLocale;
-//   }
+export default getRequestConfig(async ({ requestLocale }) => {
+  const locale = await requestLocale;
 
-//   // Ako ni podrazumevani jezik nije validan, prijavi 404
-//   if (!locales.includes(locale as (typeof locales)[number])) {
-//     return notFound();
-//   }
+  if (!locale || !locales.includes(locale)) {
+    notFound();
+  }
 
-//   return {
-//     locale: locale as (typeof locales)[number], // Ispravan TypeScript tip
-//     messages: (await import(`./messages/${locale}.json`)).default,
-//   };
-// });
+  return {
+    locale,
+    messages: (await import(`@/messages/${locale}.json`)).default,
+  };
+});

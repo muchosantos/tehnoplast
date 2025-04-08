@@ -4,15 +4,17 @@ import CategoryHero from "@/components/ui/CategoryHero";
 
 import Overview from "@/components/ui/Overview";
 import ProductCarousel from "@/components/ui/ProductCarousel";
-import {  vrataAlu, vrataSK } from "@/data";
+import { vrataAlu, vrataSK } from "@/data";
+import { useTranslations } from "next-intl";
 
 export default function Vrata() {
+  const t = useTranslations("Vrata");
   return (
     <MainLayout color="black">
       <main>
         <CategoryHero
-          heading="Tehnoplast Vrata"
-          description="Bez obzira da li birate aluminijumska vrata zbog izdržljivosti, PVC vrata zbog energetske efikasnosti ili skriveno krilo sistem za moderan i minimalistički izgled, pronađite idealno rešenje za svoj prostor."
+          heading={t('mainTitle')}
+          description={t('mainSubtitle')}
           image="/images/midjoruney/vrata1.jpg"
         />
 
@@ -20,15 +22,13 @@ export default function Vrata() {
           accord={false}
           accordData={null}
           btn={false}
-          title="Aluminijumska vrata"
-          subtitle="Naša aluminijumska vrata nude savršen spoj čvrstoće, elegancije i dugotrajnosti, prilagođena kako industrijskim, tako i stambenim objektima. Sa modernim dizajnom i vrhunskom izradom, pružaju sigurnost, funkcionalnost i estetsku vrednost."
+          title={t('vrata1title')}
+          subtitle={t("vrata1subtitle")}
           text="Ukoliko imate dodatnih pitanja budite slobodni da nas kontaktirate."
           btnText="Kontakt"
           link="link"
           showLink={false}
         />
-
-
 
         <div className="wrapper">
           <ProductCarousel data={vrataAlu} />
@@ -54,8 +54,8 @@ export default function Vrata() {
           accord={false}
           accordData={null}
           btn={false}
-          title="Skriveno krilo - sistemi"
-          subtitle="Sistemi sa skrivenim krilom pružaju moderan i sofisticiran izgled, omogućavajući veću površinu stakla i više prirodne svetlosti. Sa čistim linijama i diskretnim okvirom, idealni su za savremene objekte koji teže minimalizmu i funkcionalnosti."
+          title={t('vrata2title')}
+          subtitle={t("vrata2subtitle")}
           text="Ukoliko imate dodatnih pitanja budite slobodni da nas kontaktirate."
           btnText="Kontakt"
           link="link"

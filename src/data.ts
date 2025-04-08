@@ -1,4 +1,10 @@
-import { BoxProps, Category, Products, ProductsProps, VrataProducts } from "./types/products";
+import {
+  BoxProps,
+  Category,
+  Products,
+  ProductsProps,
+  VrataProducts,
+} from "./types/products";
 
 const izrada: Category[] = [
   {
@@ -615,7 +621,7 @@ const vrataAlu: VrataProducts[] = [
     title: `Alu ${String(i + 1).padStart(2, "0")}`,
     imageSrc: `/images/vrata/al${String(i + 1).padStart(2, "0")}.png`,
   })),
-]
+];
 
 const kontakt: Category[] = [
   {
@@ -686,7 +692,7 @@ const kontakt: Category[] = [
       },
     ],
   },
-]
+];
 
 export { izrada, proces, prozori, vrataSK, vrataAlu, kontakt };
 
@@ -738,7 +744,7 @@ export const sistemiOstakljivanja: BoxProps[] = [
   },
 ];
 
-export const garaznaVrata:BoxProps[] = [
+export const garaznaVrata: BoxProps[] = [
   {
     title: "Segmentna",
     subititle:
@@ -749,589 +755,575 @@ export const garaznaVrata:BoxProps[] = [
     subititle:
       "Idealno za stambene i komercijalne primene, naš sistem giljotinskog stakla pruža savršen balans dizajna, funkcionalnosti i performansi. unapredite svoj prostor sa najnovijim i najefikasnijim rešenjem dostupnim danas.",
   },
-]
+];
 
+export const aluProzoriProducts: ProductsProps[] = [
+  {
+    image: "/images/prozori/alu/p1.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+  {
+    image: "/images/prozori/alu/p2.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+  {
+    image: "/images/prozori/alu/p3.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+  {
+    image: "/images/prozori/alu/p4.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+  {
+    image: "/images/prozori/alu/p5.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+  {
+    image: "/images/prozori/alu/p6.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+  {
+    image: "/images/prozori/alu/p7.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+  {
+    image: "/images/prozori/alu/p8.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+];
 
-export const aluProzoriProducts:ProductsProps[] = [
+export const pvcProzoriProducts: ProductsProps[] = [
   {
-    image:'/images/prozori/alu/p1.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/prozori/pvc/p1.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/prozori/alu/p2.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/prozori/pvc/p2.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/prozori/alu/p3.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/prozori/pvc/p3.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/prozori/alu/p4.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/prozori/pvc/p4.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/prozori/alu/p5.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/prozori/pvc/p5.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/prozori/alu/p6.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/prozori/pvc/p6.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/prozori/alu/p7.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/prozori/pvc/p7.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
-  {
-    image:'/images/prozori/alu/p8.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-]
+];
 
-export const pvcProzoriProducts:ProductsProps[] = [
+export const aluklipProzoriProducts: ProductsProps[] = [
   {
-    image:'/images/prozori/pvc/p1.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/prozori/klip/p1.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/prozori/pvc/p2.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/prozori/klip/p2.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/prozori/pvc/p3.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/prozori/klip/p3.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/prozori/pvc/p4.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/prozori/klip/p4.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/prozori/pvc/p5.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/prozori/klip/p5.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/prozori/pvc/p6.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/prozori/klip/p6.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
-  {
-    image:'/images/prozori/pvc/p7.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-]
+];
 
-export const aluklipProzoriProducts:ProductsProps[] = [
+export const stakleneFasadeProducts: ProductsProps[] = [
   {
-    image:'/images/prozori/klip/p1.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/fasade/staklene/p1.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/prozori/klip/p2.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/fasade/staklene/p2.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/prozori/klip/p3.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/fasade/staklene/p3.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/prozori/klip/p4.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/fasade/staklene/p4.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/prozori/klip/p5.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/fasade/staklene/p5.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
-  {
-    image:'/images/prozori/klip/p6.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
+];
 
-]
+export const elementFasadeProducts: ProductsProps[] = [
+  {
+    image: "/images/fasade/element/p1.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+  {
+    image: "/images/fasade/element/p2.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+  {
+    image: "/images/fasade/element/p3.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+  {
+    image: "/images/fasade/element/p4.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+  {
+    image: "/images/fasade/element/p5.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+];
 
-export const stakleneFasadeProducts:ProductsProps[] = [
+export const alubondFasadeProducts: ProductsProps[] = [
   {
-    image:'/images/fasade/staklene/p1.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/fasade/alubond/p1.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/fasade/staklene/p2.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/fasade/alubond/p2.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/fasade/staklene/p3.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/fasade/alubond/p3.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/fasade/staklene/p4.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/fasade/alubond/p4.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/fasade/staklene/p5.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/fasade/alubond/p5.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
+];
 
-]
+export const ventilirajuceFasadeProducts: ProductsProps[] = [
+  {
+    image: "/images/fasade/ventilirajuce/p1.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+  {
+    image: "/images/fasade/ventilirajuce/p2.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+  {
+    image: "/images/fasade/ventilirajuce/p3.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+];
 
-export const elementFasadeProducts:ProductsProps[] = [
+export const tekstilnepergoleProducts: ProductsProps[] = [
   {
-    image:'/images/fasade/element/p1.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/pergole/tekstilne/p1.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/fasade/element/p2.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/pergole/tekstilne/p2.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/fasade/element/p3.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/pergole/tekstilne/p3.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/fasade/element/p4.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/pergole/tekstilne/p4.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
-  {
-    image:'/images/fasade/element/p5.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
+];
 
-]
+export const bioklimatskenepergoleProducts: ProductsProps[] = [
+  {
+    image: "/images/pergole/bioklimatske/p1.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+  {
+    image: "/images/pergole/bioklimatske/p2.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+  {
+    image: "/images/pergole/bioklimatske/p3.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+];
 
-export const alubondFasadeProducts:ProductsProps[] = [
+export const staklenikrovProducts: ProductsProps[] = [
   {
-    image:'/images/fasade/alubond/p1.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/pergole/krov/p1.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/fasade/alubond/p2.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/pergole/krov/p2.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/fasade/alubond/p3.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/pergole/krov/p3.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/fasade/alubond/p4.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/pergole/krov/p4.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/fasade/alubond/p5.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/pergole/krov/p5.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
+];
 
-]
+export const podiznoklizniProducts: ProductsProps[] = [
+  {
+    image: "/images/klizni/podizno/p1.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+  {
+    image: "/images/klizni/podizno/p2.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+  {
+    image: "/images/klizni/podizno/p3.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+  {
+    image: "/images/klizni/podizno/p4.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+  {
+    image: "/images/klizni/podizno/p5.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+];
 
-export const ventilirajuceFasadeProducts:ProductsProps[] = [
+export const uskocnoklizniProducts: ProductsProps[] = [
   {
-    image:'/images/fasade/ventilirajuce/p1.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/klizni/uskocno/p1.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/fasade/ventilirajuce/p2.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/klizni/uskocno/p2.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/fasade/ventilirajuce/p3.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/klizni/uskocno/p3.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
+  {
+    image: "/images/klizni/uskocno/p4.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+];
 
-]
+export const klasicnoklizniProducts: ProductsProps[] = [
+  {
+    image: "/images/klizni/klasicno/p1.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+  {
+    image: "/images/klizni/klasicno/p2.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+  {
+    image: "/images/klizni/klasicno/p3.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+  {
+    image: "/images/klizni/klasicno/p4.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+];
 
-export const tekstilnepergoleProducts:ProductsProps[] = [
+export const akordionklizniProducts: ProductsProps[] = [
   {
-    image:'/images/pergole/tekstilne/p1.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/klizni/akordion/p1.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/pergole/tekstilne/p2.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/klizni/akordion/p2.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/pergole/tekstilne/p3.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/klizni/akordion/p3.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/pergole/tekstilne/p4.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/klizni/akordion/p4.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
+];
 
-]
+export const segmentnaGaraznaProducts: ProductsProps[] = [
+  {
+    image: "/images/garazna/segment/p1.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+  {
+    image: "/images/garazna/segment/p2.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+  {
+    image: "/images/garazna/segment/p3.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+  {
+    image: "/images/garazna/segment/p4.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+];
 
-export const bioklimatskenepergoleProducts:ProductsProps[] = [
+export const roloGaraznaProducts: ProductsProps[] = [
   {
-    image:'/images/pergole/bioklimatske/p1.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/garazna/rolo/p1.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/pergole/bioklimatske/p2.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/garazna/rolo/p2.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/pergole/bioklimatske/p3.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/garazna/rolo/p3.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
-]
+  {
+    image: "/images/garazna/rolo/p4.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+];
 
-export const staklenikrovProducts:ProductsProps[] = [
+export const ogradeProducts: ProductsProps[] = [
   {
-    image:'/images/pergole/krov/p1.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/ograde/p1.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/pergole/krov/p2.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/ograde/p2.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/pergole/krov/p3.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/ograde/p3.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/pergole/krov/p4.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/ograde/p4.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/pergole/krov/p5.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/ograde/p5.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
-]
+  {
+    image: "/images/ograde/p6.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+  {
+    image: "/images/ograde/p7.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+  {
+    image: "/images/ograde/p8.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+];
 
-export const podiznoklizniProducts:ProductsProps[] = [
+export const pratecaProducts: ProductsProps[] = [
   {
-    image:'/images/klizni/podizno/p1.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/prateca/p1.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/klizni/podizno/p2.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/prateca/p2.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/klizni/podizno/p3.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/prateca/p3.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/klizni/podizno/p4.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/prateca/p4.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/klizni/podizno/p5.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/prateca/p5.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
-]
+  {
+    image: "/images/prateca/p6.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+  {
+    image: "/images/prateca/p7.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+  {
+    image: "/images/prateca/p8.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+  {
+    image: "/images/prateca/p9.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+];
 
-export const uskocnoklizniProducts:ProductsProps[] = [
+export const giljotinastaklaProducts: ProductsProps[] = [
   {
-    image:'/images/klizni/uskocno/p1.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/sistemi/giljotina/p1.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/klizni/uskocno/p2.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/sistemi/giljotina/p2.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/klizni/uskocno/p3.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/sistemi/giljotina/p3.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/klizni/uskocno/p4.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/sistemi/giljotina/p4.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
-]
+];
 
-export const klasicnoklizniProducts:ProductsProps[] = [
+export const termostaklaProducts: ProductsProps[] = [
   {
-    image:'/images/klizni/klasicno/p1.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/sistemi/termo/p1.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/klizni/klasicno/p2.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/sistemi/termo/p2.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/klizni/klasicno/p3.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/sistemi/termo/p3.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/klizni/klasicno/p4.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/sistemi/termo/p4.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
-]
+];
 
-export const akordionklizniProducts:ProductsProps[] = [
+export const kliznastaklaProducts: ProductsProps[] = [
   {
-    image:'/images/klizni/akordion/p1.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/sistemi/klizna/p1.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/klizni/akordion/p2.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/sistemi/klizna/p2.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/klizni/akordion/p3.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/sistemi/klizna/p3.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
-  {
-    image:'/images/klizni/akordion/p4.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-  
-]
+];
 
-export const segmentnaGaraznaProducts:ProductsProps[] = [
+export const sklopivastaklaProducts: ProductsProps[] = [
   {
-    image:'/images/garazna/segment/p1.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/sistemi/sklopiva/p1.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/garazna/segment/p2.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/sistemi/sklopiva/p2.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/garazna/segment/p3.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/sistemi/sklopiva/p3.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
-  {
-    image:'/images/garazna/segment/p4.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-  
-]
+];
 
-export const roloGaraznaProducts:ProductsProps[] = [
+export const internistaklaProducts: ProductsProps[] = [
   {
-    image:'/images/garazna/rolo/p1.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/sistemi/interni/p1.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/garazna/rolo/p2.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/sistemi/interni/p2.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/garazna/rolo/p3.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/sistemi/interni/p3.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
-  {
-    image:'/images/garazna/rolo/p4.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-  
-]
+];
 
-export const ogradeProducts:ProductsProps[] = [
+export const arhitektonskastaklaProducts: ProductsProps[] = [
   {
-    image:'/images/ograde/p1.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/sistemi/arhitektonska/p1.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/ograde/p2.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/sistemi/arhitektonska/p2.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/ograde/p3.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/sistemi/arhitektonska/p3.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/ograde/p4.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/sistemi/arhitektonska/p4.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/ograde/p5.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/sistemi/arhitektonska/p5.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/ograde/p6.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/sistemi/arhitektonska/p6.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/ograde/p7.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/sistemi/arhitektonska/p7.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/ograde/p8.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/sistemi/arhitektonska/p8.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
-  
-]
+  {
+    image: "/images/sistemi/arhitektonska/p9.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+  {
+    image: "/images/sistemi/arhitektonska/p10.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
+  },
+];
 
-export const pratecaProducts:ProductsProps[] = [
+export const zipstaklaProducts: ProductsProps[] = [
   {
-    image:'/images/prateca/p1.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/sistemi/zip/p1.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/prateca/p2.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/sistemi/zip/p2.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/prateca/p3.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/sistemi/zip/p3.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
   {
-    image:'/images/prateca/p4.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
+    image: "/images/sistemi/zip/p4.png",
+    alt: "Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija",
   },
-  {
-    image:'/images/prateca/p5.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-  {
-    image:'/images/prateca/p6.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-  {
-    image:'/images/prateca/p7.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-  {
-    image:'/images/prateca/p8.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-  {
-    image:'/images/prateca/p9.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-  
-]
-
-export const giljotinastaklaProducts:ProductsProps[] = [
-  {
-    image:'/images/sistemi/giljotina/p1.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-  {
-    image:'/images/sistemi/giljotina/p2.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-  {
-    image:'/images/sistemi/giljotina/p3.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-  {
-    image:'/images/sistemi/giljotina/p4.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-
-  
-]
-
-export const termostaklaProducts:ProductsProps[] = [
-  {
-    image:'/images/sistemi/termo/p1.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-  {
-    image:'/images/sistemi/termo/p2.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-  {
-    image:'/images/sistemi/termo/p3.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-  {
-    image:'/images/sistemi/termo/p4.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },  
-]
-
-export const kliznastaklaProducts:ProductsProps[] = [
-  {
-    image:'/images/sistemi/klizna/p1.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-  {
-    image:'/images/sistemi/klizna/p2.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-  {
-    image:'/images/sistemi/klizna/p3.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-]
-
-export const sklopivastaklaProducts:ProductsProps[] = [
-  {
-    image:'/images/sistemi/sklopiva/p1.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-  {
-    image:'/images/sistemi/sklopiva/p2.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-  {
-    image:'/images/sistemi/sklopiva/p3.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-]
-
-export const internistaklaProducts:ProductsProps[] = [
-  {
-    image:'/images/sistemi/interni/p1.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-  {
-    image:'/images/sistemi/interni/p2.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-  {
-    image:'/images/sistemi/interni/p3.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-]
-
-export const arhitektonskastaklaProducts:ProductsProps[] = [
-  {
-    image:'/images/sistemi/arhitektonska/p1.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-  {
-    image:'/images/sistemi/arhitektonska/p2.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-  {
-    image:'/images/sistemi/arhitektonska/p3.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-  {
-    image:'/images/sistemi/arhitektonska/p4.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-  {
-    image:'/images/sistemi/arhitektonska/p5.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-  {
-    image:'/images/sistemi/arhitektonska/p6.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-  {
-    image:'/images/sistemi/arhitektonska/p7.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-  {
-    image:'/images/sistemi/arhitektonska/p8.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-  {
-    image:'/images/sistemi/arhitektonska/p9.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-  {
-    image:'/images/sistemi/arhitektonska/p10.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-]
-
-export const zipstaklaProducts:ProductsProps[] = [
-  {
-    image:'/images/sistemi/zip/p1.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-  {
-    image:'/images/sistemi/zip/p2.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-  {
-    image:'/images/sistemi/zip/p3.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-  {
-    image:'/images/sistemi/zip/p4.png',
-    alt:'Tehnoplast Prozori, PVC I ALU Srbija, PVC Prozori, Aluminijumski prozori, Tehnoplast Lapovo, Stolarija Srbija'
-  },
-]
+];

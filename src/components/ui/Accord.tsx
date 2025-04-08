@@ -9,14 +9,17 @@ import {
 } from "@/components/ui/accordion";
 
 import { Category } from "@/types/products";
-import Link from "next/link";
+import { Link } from "@/navigation";
+import { useTranslations } from "next-intl";
 
 interface AccordProps {
   data: Category[] | null;
-  showLink?:boolean
+  showLink?: boolean;
 }
 
 const Accord: React.FC<AccordProps> = ({ data, showLink }) => {
+  const t = useTranslations("Home");
+
   return (
     <Accordion type="single" collapsible className="w-full">
       {data &&
@@ -56,14 +59,14 @@ const Accord: React.FC<AccordProps> = ({ data, showLink }) => {
 
               {showLink && (
                 <>
-                <p className="text-[#202020] text-[18px] mt-8 underline">
-                Pogledajte detaljnije naše radove.
-              </p>
-              <Link href={item.link}>
-                <button className="border border-black text-[1rem] bg-black text-white px-8 py-2 mt-4 mb-4 rounded-2xl">
-                  Detaljnije
-                </button>
-              </Link>
+                  <p className="text-[#202020] text-[18px] mt-8 underline">
+                    {t("accordBtn")}
+                  </p>
+                  <Link href={item.link}>
+                    <button className="border border-black text-[1rem] bg-black text-white px-8 py-2 mt-4 mb-4 rounded-2xl">
+                     {t("detaljnije")}
+                    </button>
+                  </Link>
                 </>
               )}
             </AccordionContent>

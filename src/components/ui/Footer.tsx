@@ -1,11 +1,14 @@
+import { useTranslations } from "next-intl";
 import React from "react";
 
 const Footer: React.FC = () => {
+  const t = useTranslations("Home");
+
   return (
     <footer>
       <div className="wrapper border-t border-b border-[#393e4236] py-12">
         <p className="py-16 text-[22px] lg:text-[30px] font-bold font-open-sans  tracking-[-0.5px] w-[90%] leading-[30px] text-[#393e42]">
-          Proizvodnja i ugradnja ALU i PVC stolarije
+          {t('mainTitle')}
         </p>
         <a
           href="mailto:info@tehnoplast.co.rs"

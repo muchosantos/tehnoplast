@@ -3,14 +3,16 @@ import CategoryHero from "@/components/ui/CategoryHero";
 import Gallery from "@/components/ui/Gallery";
 import Overview from "@/components/ui/Overview";
 import { roloGaraznaProducts, segmentnaGaraznaProducts } from "@/data";
+import { useTranslations } from "next-intl";
 
 export default function GaraznaVrata() {
+    const t = useTranslations("Garazna-vrata");
   return (
     <MainLayout color={''}>
       <main>
         <CategoryHero
-          heading="Tehnoplast Garažna vrata"
-          description="Segmentna garažna vrata pružaju odličnu termoizolaciju, dok rolo sistem omogućava maksimalnu uštedu prostora – odaberite rešenje koje najbolje odgovara vašim potrebama."
+          heading={t("mainTitle")}
+          description={t('mainSubtitle')}
           image="/images/midjoruney/garazna.png"
         />
 
@@ -18,8 +20,8 @@ export default function GaraznaVrata() {
           accord={false}
           accordData={null}
           btn={false}
-          title="Segmentna garažna vrata"
-          subtitle="Praktično i pouzdano rešenje koje štedi prostor i obezbeđuje vrhunsku termo i zvučnu izolaciju. Sa modernim dizajnom i glatkim mehanizmom otvaranja, idealna su za sigurnost, funkcionalnost i estetski izgled garažnih prostora."
+          title={t('title1')}
+          subtitle={t('subtitle1')}
           text="Ukoliko imate dodatnih pitanja budite slobodni da nas kontaktirate."
           btnText="Kontakt"
           link="link"
@@ -34,8 +36,8 @@ export default function GaraznaVrata() {
           accord={false}
           accordData={null}
           btn={false}
-          title="Rolo garažna vrata"
-          subtitle="Kompaktno i efikasno rešenje koje omogućava maksimalnu uštedu prostora uz jednostavan mehanizam otvaranja. Odlikuju se visokom izdržljivošću, termoizolacijom i sigurnošću, čineći ih idealnim za garaže različitih dimenzija."
+          title={t('title2')}
+          subtitle={t('subtitle2')}
           text="Ukoliko imate dodatnih pitanja budite slobodni da nas kontaktirate."
           btnText="Kontakt"
           link="link"

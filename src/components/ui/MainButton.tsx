@@ -1,5 +1,5 @@
-'use client'
-import Link from "next/link";
+"use client";
+import { Link } from "@/navigation";
 import React from "react";
 
 interface ButtonProps {
@@ -8,11 +8,12 @@ interface ButtonProps {
 }
 
 const MainButton: React.FC<ButtonProps> = ({ title, link }) => {
-
   return (
-    <button className="border border-black px-10 py-2 rounded-xl bg-white text-black hover:bg-black hover:text-white transition duration-300">
-      <Link href={link} onClick={() => console.log(link)}>{title}</Link>
-    </button>
+    <Link href={link}>
+      <button className="border border-black px-10 py-2 rounded-xl bg-white text-black hover:bg-black hover:text-white transition duration-300 ">
+        {title}
+      </button>
+    </Link>
   );
 };
 

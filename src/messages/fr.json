@@ -1,6 +1,815 @@
 {
-    "Home": {
-        "title":"De votre côté.",
-        "subtitle":"La société Tehnoplast est spécialisée dans la production et l'installation de menuiseries en ALU et PVC depuis 2001. Forts de notre expérience, nous pouvons vous garantir la qualité de nos produits."
-    }
+  "Home": {
+    "mainTitle": "Solution complète pour la fabrication et l'installation de menuiseries PVC et ALU",
+    "mainSubtitle": "Tehnoplast est spécialisé dans la conception, la fabrication et l'installation de menuiseries en PVC et en ALU, offrant des solutions de qualité pour les habitations et les espaces professionnels à travers l'Europe.",
+    "heading1": "Fabrication sans compromis",
+    "subheading1": "Chaque espace est adapté à vos envies : nous transformons vos idées en réalité grâce à une fabrication minutieuse et des matériaux de haute qualité. Nos produits allient design, fonctionnalité et qualité pour offrir des solutions sur mesure à chaque client.",
+    "btnTitle": "Si vous avez d'autres questions, n'hésitez pas à nous contacter.",
+    "accordBtn": "Découvrez plus en détail nos réalisations.",
+    "detaljnije": "En savoir plus",
+    "btn1": "Contactez-nous.",
+    "izrada": [
+      {
+        "category": "Fenêtres",
+        "link": "/prozori",
+        "description": "Nous proposons des fenêtres en aluminium, PVC et ALU-CLIP, alliant matériaux de qualité et design moderne pour une fonctionnalité et un confort maximum.",
+        "items": [
+          {
+            "title": "Fenêtres en aluminium",
+            "list": [
+              "Traitement avec les méthodes les plus modernes",
+              "Découpe précise",
+              "Esthétique de finition supérieure",
+              "Protection durable"
+            ]
+          },
+          {
+            "title": "Fenêtres en PVC",
+            "list": [
+              "Traitement avancé",
+              "Formage précis",
+              "Longue durée de vie",
+              "Finition impeccable"
+            ]
+          },
+          {
+            "title": "Fenêtres ALU-CLIP",
+            "list": [
+              "Combinaison d’aluminium et de PVC",
+              "Traitement précis",
+              "Design élégant",
+              "Résistance durable"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Portes",
+        "link": "/vrata",
+        "description": "Nous proposons des portes en ALU, PVC et à ouvrant caché, qui allient matériaux de haute qualité et design moderne, offrant une sécurité, une fonctionnalité et une esthétique élevées.",
+        "items": [
+          {
+            "title": "Portes en aluminium",
+            "list": [
+              "Traitement avec les méthodes les plus modernes",
+              "Découpe précise",
+              "Esthétique de finition supérieure"
+            ]
+          },
+          {
+            "title": "Portes en PVC",
+            "list": [
+              "Traitement avancé",
+              "Formage précis",
+              "Longue durée de vie"
+            ]
+          },
+          {
+            "title": "Ouvrant caché – systèmes",
+            "list": [
+              "Traitement précis",
+              "Design élégant",
+              "Résistance durable"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Systèmes de vitrage",
+        "link": "/sistemi-ostakljivanja",
+        "description": "Les solutions Eralux combinent un design moderne, un haut niveau de sécurité, de fonctionnalité et une perfection esthétique, adaptées à vos besoins.",
+        "items": [
+          {
+            "title": "Vitrage guillotine",
+            "list": [
+              "Traitement avec les méthodes les plus modernes",
+              "Découpe précise"
+            ]
+          },
+          {
+            "title": "Vitrage guillotine thermique",
+            "list": ["Traitement avec les méthodes les plus modernes"]
+          },
+          {
+            "title": "Vitrage coulissant",
+            "list": ["Traitement avec les méthodes les plus modernes"]
+          },
+          {
+            "title": "Vitrage pliable",
+            "list": ["Traitement avec les méthodes les plus modernes"]
+          },
+          {
+            "title": "Vitrage coulissant-pliable",
+            "list": ["Traitement avec les méthodes les plus modernes"]
+          },
+          {
+            "title": "Système de vitrage interne",
+            "list": ["Traitement avec les méthodes les plus modernes"]
+          },
+          {
+            "title": "Volet architectural",
+            "list": ["Traitement avec les méthodes les plus modernes"]
+          },
+          {
+            "title": "Store zip",
+            "list": ["Traitement avec les méthodes les plus modernes"]
+          },
+          {
+            "title": "Rideau intérieur",
+            "list": ["Traitement avec les méthodes les plus modernes"]
+          }
+        ]
+      },
+      {
+        "category": "Façades",
+        "link": "/fasade",
+        "description": "Durables, écoénergétiques et esthétiquement adaptables, nos façades offrent une protection longue durée et un aspect moderne à chaque bâtiment.",
+        "items": [
+          {
+            "title": "Façades en verre",
+            "list": [
+              "Traitement avec les méthodes les plus modernes",
+              "Découpe précise",
+              "Esthétique de finition supérieure"
+            ]
+          },
+          {
+            "title": "Façades à éléments",
+            "list": [
+              "Traitement avec les méthodes les plus modernes",
+              "Découpe précise",
+              "Esthétique de finition supérieure"
+            ]
+          },
+          {
+            "title": "Façades en alu-bond",
+            "list": [
+              "Traitement avec les méthodes les plus modernes",
+              "Découpe précise",
+              "Esthétique de finition supérieure"
+            ]
+          },
+          {
+            "title": "Façades ventilées",
+            "list": [
+              "Traitement avec les méthodes les plus modernes",
+              "Découpe précise",
+              "Esthétique de finition supérieure"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Pergolas",
+        "link": "/pergole",
+        "description": "Solution parfaite contre le soleil et la pluie, nos pergolas allient fonctionnalité et design moderne, offrant confort et élégance à tout espace extérieur.",
+        "items": [
+          {
+            "title": "Pergola en textile",
+            "list": [
+              "Traitement avec les méthodes les plus modernes",
+              "Découpe précise",
+              "Esthétique de finition supérieure"
+            ]
+          },
+          {
+            "title": "Pergola bioclimatique",
+            "list": [
+              "Traitement avec les méthodes les plus modernes",
+              "Découpe précise",
+              "Esthétique de finition supérieure"
+            ]
+          },
+          {
+            "title": "Toit en verre",
+            "list": [
+              "Traitement avec les méthodes les plus modernes",
+              "Découpe précise",
+              "Esthétique de finition supérieure"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Systèmes coulissants",
+        "link": "/klizni-sistemi",
+        "description": "Nos systèmes coulissants, y compris les systèmes levants-coulissants, coulissants à translation, coulissants classiques et en accordéon, offrent une fonctionnalité maximale, un design élégant et une utilisation optimale de l’espace.",
+        "items": [
+          {
+            "title": "Coulissant à levage",
+            "list": [
+              "Traitement avec les méthodes les plus modernes",
+              "Découpe précise"
+            ]
+          },
+          {
+            "title": "Coulissant à translation",
+            "list": ["Traitement avancé"]
+          },
+          {
+            "title": "Coulissant classique",
+            "list": ["Combinaison d’aluminium et de PVC", "Traitement précis"]
+          },
+          {
+            "title": "Systèmes accordéon",
+            "list": ["Combinaison d’aluminium et de PVC", "Traitement précis"]
+          }
+        ]
+      },
+      {
+        "category": "Portes de garage",
+        "link": "/garazna-vrata",
+        "description": "Les portes de garage représentent une solution idéale alliant sécurité, fonctionnalité et esthétique pour votre espace. Elles combinent des matériaux de haute qualité avec des mécanismes modernes pour une utilisation durable et fiable.",
+        "items": [
+          {
+            "title": "Portes enroulables",
+            "list": [
+              "Solution compacte et pratique",
+              "Système d'ouverture vers le haut avec possibilité d'automatisation"
+            ]
+          },
+          {
+            "title": "Portes sectionnelles",
+            "list": [
+              "Option robuste avec isolation thermique",
+              "Design élégant",
+              "Adaptée à tous types de bâtiments"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Garde-corps et rampes",
+        "link": "/ograde-i-gelenderi",
+        "description": "Les garde-corps et rampes sont la solution parfaite pour la sécurité, l’esthétique et la fonctionnalité de votre espace. L’association de matériaux de haute qualité et d’un design moderne garantit durabilité, stabilité et élégance.",
+        "items": [
+          {
+            "title": "Découvrez nos réalisations",
+            "list": []
+          }
+        ]
+      },
+      {
+        "category": "Équipements complémentaires",
+        "link": "/prateca-oprema",
+        "description": "Les équipements complémentaires offrent une protection, une fonctionnalité et un confort supplémentaires, en adaptant vos fenêtres et portes aux besoins modernes.",
+        "items": [
+          {
+            "title": "Moustiquaires",
+            "list": [
+              "Protection efficace contre les insectes",
+              "Disponibles en versions fixes, enroulables, plissées et de type porte américaine."
+            ]
+          },
+          {
+            "title": "Protection solaire",
+            "list": ["Extérieure", "Thermique"]
+          },
+          {
+            "title": "Cloisons sanitaires",
+            "list": []
+          }
+        ]
+      }
+    ],
+    "heading2": "Nous livrons uniquement des projets réussis",
+    "subheading2": "Nos produits sont utilisés dans la construction de structures porteuses et dans tous types de clôtures, aussi bien dans le secteur industriel que privé.",
+    "stats": [
+      {
+        "title": "100+",
+        "description": "Employés",
+        "text": "Une équipe d’experts dédiée à l’innovation et à des résultats d’excellence pour chaque projet."
+      },
+      {
+        "title": "30",
+        "description": "Années d’expérience",
+        "text": "Trois décennies d’expertise, d’engagement et de réussite dans l’industrie."
+      },
+      {
+        "title": "1000+",
+        "description": "Projets",
+        "text": "Des milliers de projets réalisés avec engagement et précision."
+      },
+      {
+        "title": "100%",
+        "description": "Clients satisfaits",
+        "text": "Chaque client est notre priorité – confiance, qualité et partenariat durable."
+      }
+    ],
+    "heading3": "À travers l’Europe",
+    "subheading3": "Nous façonnons des espaces à travers l’Europe, en alliant design contemporain, fabrication de qualité et matériaux haut de gamme. Nos projets en Allemagne, en France et en Serbie reflètent notre engagement envers les détails, la fonctionnalité et l’innovation, en offrant des solutions adaptées aux besoins spécifiques de chaque client.",
+    "proces": [
+      {
+        "category": "1. Contact du bureau",
+        "link": "",
+        "description": "Notre stratégie permet d’optimiser la communication, de s’adapter aux besoins professionnels et de s’aligner avec votre marque. En créant des solutions fonctionnelles et esthétiquement cohérentes, nous vous aidons à renforcer les liens avec vos clients, à accroître votre productivité et à améliorer votre visibilité sur le marché.",
+        "items": [
+          {
+            "title": "Contact",
+            "list": ["+381 62 466 555", "info@tehnoplast.co.rs"]
+          },
+          {
+            "title": "Bureau",
+            "list": ["Kosovskih junaka 20, 34220 Lapovo, Serbie"]
+          }
+        ]
+      },
+      {
+        "category": "2. Prise de mesures",
+        "link": "",
+        "description": "Mesures précises et conseils professionnels pour des solutions parfaitement adaptées.",
+        "items": [
+          {
+            "title": "Planification de l’espace",
+            "list": [
+              "Analyse des besoins et optimisation de l’environnement de travail",
+              "Définition des éléments clés de l’espace de bureau",
+              "Compréhension des exigences des utilisateurs et de la dynamique de l’entreprise",
+              "Définition des objectifs stratégiques pour une organisation efficace"
+            ]
+          },
+          {
+            "title": "Conception et conseils",
+            "list": [
+              "Création d’un intérieur fonctionnel et esthétiquement adapté",
+              "Optimisation des canaux de communication et des points de contact",
+              "Développement d’unités de travail modulaires et adaptables"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "3. Soumission d'offres",
+        "link": "",
+        "description": "Nous nous concentrons sur la précision, la flexibilité et la présentation esthétique afin de faciliter la compréhension et la prise de décision.",
+        "items": [
+          {
+            "title": "Processus de création de l’offre",
+            "list": [
+              "Analyse des demandes et définition des paramètres clés",
+              "Élaboration stratégique de l’offre en accord avec les objectifs commerciaux",
+              "Détails clairement structurés et spécifications techniques"
+            ]
+          },
+          {
+            "title": "Présentation et adaptation",
+            "list": [
+              "Documentation visuellement attrayante et professionnellement conçue",
+              "Transparence sur les prix, les délais et les conditions de collaboration",
+              "Possibilité d’adapter l’offre aux besoins du client"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "4. Fabrication de menuiseries",
+        "link": "",
+        "description": "Notre processus de fabrication garantit durabilité, fonctionnalité et esthétique, tout en s’adaptant aux exigences spécifiques des clients. Nous utilisons des matériaux de qualité et des méthodes de traitement modernes pour offrir des menuiseries répondant aux normes les plus élevées.",
+        "items": [
+          {
+            "title": "Processus de fabrication",
+            "list": [
+              "Adaptation des dimensions et des spécifications techniques",
+              "Utilisation de matériaux de haute qualité et traitement précis",
+              "Tests de durabilité et finitions"
+            ]
+          },
+          {
+            "title": "Design et fonctionnalité",
+            "list": [
+              "Détails esthétiques harmonisés et systèmes d’ouverture modernes",
+              "Optimisation de l’isolation et de l’efficacité énergétique",
+              "Flexibilité dans le choix des couleurs, finitions et options supplémentaires"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "5. Transport et installation",
+        "link": "",
+        "description": "Notre équipe assure une livraison sécurisée et une installation précise, en respectant toutes les normes techniques et les exigences spécifiques des clients. L’efficacité, l’attention aux détails et une perturbation minimale de l’espace garantissent une exécution rapide et de qualité.",
+        "items": [
+          {
+            "title": "Transport sécurisé",
+            "list": [
+              "Emballage soigneux et protection des éléments",
+              "Livraison ponctuelle à l’emplacement souhaité",
+              "Respect de tous les protocoles logistiques et de sécurité"
+            ]
+          },
+          {
+            "title": "Installation professionnelle",
+            "list": [
+              "Nivellation précise et pose de la menuiserie",
+              "Assurance d’une isolation et d’une fonctionnalité optimales",
+              "Travaux de finition et vérification avant la remise au client"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "Prozori": {
+    "mainTitle": "Fenêtres Tehnoplast",
+    "mainSubtitle": "Nous proposons des fenêtres en ALU, PVC et ALU-CLIP, qui allient matériaux de qualité et design moderne pour une fonctionnalité et un confort maximum.",
+    "prozori1title": "Fenêtres en aluminium",
+    "prozori1subtitle": "Nos produits sont utilisés pour la construction de structures porteuses et pour tous types de clôtures, tant dans le secteur industriel que privé.",
+    "prozori2title": "Fenêtres en PVC",
+    "prozori2subtitle": "Nos fenêtres offrent fiabilité et durabilité pour tous types de bâtiments, qu’il s’agisse d’espaces industriels ou résidentiels. Une fabrication de qualité et des matériaux modernes garantissent sécurité et valeur esthétique.",
+    "prozori3title": "Fenêtres ALU-CLIP",
+    "prozori3subtitle": "Nos fenêtres ALU-CLIP combinent la robustesse de l’aluminium avec un design moderne, offrant des solutions durables et esthétiques pour les bâtiments industriels et résidentiels. Idéales pour les espaces contemporains exigeant fonctionnalité et qualité supérieure."
+  },
+
+  "Vrata": {
+    "mainTitle": "Portes Tehnoplast",
+    "mainSubtitle": "Que vous choisissiez des portes en aluminium pour leur durabilité, des portes en PVC pour leur efficacité énergétique ou un système à ouvrant caché pour un style moderne et minimaliste, trouvez la solution idéale pour votre espace.",
+    "vrata1title": "Portes en aluminium",
+    "vrata1subtitle": "Nos portes en aluminium offrent une combinaison parfaite de solidité, d’élégance et de durabilité, adaptées aussi bien aux bâtiments industriels qu’aux espaces résidentiels. Avec un design moderne et une fabrication de haute qualité, elles garantissent sécurité, fonctionnalité et valeur esthétique.",
+    "vrata2title": "Systèmes à ouvrant caché",
+    "vrata2subtitle": "Les systèmes à ouvrant caché offrent un look moderne et sophistiqué, permettant une plus grande surface vitrée et plus de lumière naturelle. Avec des lignes épurées et un cadre discret, ils sont idéaux pour les espaces contemporains recherchant le minimalisme et la fonctionnalité."
+  },
+
+  "Fasade": {
+    "mainTitle": "Façades Tehnoplast",
+    "mainSubtitle": "Les solutions Eralux allient design moderne, haut niveau de sécurité, fonctionnalité et perfection esthétique, adaptées à vos besoins.",
+    "fasade1title": "Façades en verre",
+    "fasade1subtitle": "Un design élégant et contemporain qui permet une pénétration maximale de la lumière naturelle, améliore l’efficacité énergétique et contribue à l’esthétique de chaque bâtiment. Une solution idéale pour les espaces professionnels et résidentiels modernes alliant fonctionnalité et effet visuel haut de gamme.",
+    "fasade2title": "Façades à éléments",
+    "fasade2subtitle": "Une solution modulaire et efficace qui permet une installation rapide, une isolation thermique optimale et un design moderne. Grâce à une fabrication précise et à des matériaux de haute qualité, elle garantit durabilité, stabilité et cohérence esthétique avec l’architecture contemporaine.",
+    "fasade3title": "Façades en Alubond",
+    "fasade3subtitle": "Des solutions légères, durables et esthétiquement adaptables, combinant une excellente résistance aux intempéries avec un design moderne. Un choix idéal pour les bâtiments contemporains, offrant durabilité, efficacité énergétique et un effet visuel sophistiqué.",
+    "fasade4title": "Façades ventilées",
+    "fasade4subtitle": "Une solution de façade moderne qui améliore l’efficacité énergétique du bâtiment, assure une isolation thermique optimale et empêche la condensation. Elle combine fonctionnalité et esthétique, garantissant une protection durable et une expression architecturale contemporaine."
+  },
+
+  "Sistemi-ostaklivanja": {
+    "mainTitle": "Systèmes de vitrage",
+    "mainSubtitle": "Les solutions Eralux allient design moderne, haut niveau de sécurité, fonctionnalité et perfection esthétique, adaptées à vos besoins.",
+    "title1": "Vitrage guillotine",
+    "subtitle1": "Avec une variété d’options de personnalisation, vous pouvez choisir entre différents types de verre et configurations d’ouverture, y compris des modèles à 2, 3 ou 4 vantaux. Ce système polyvalent est idéal pour les espaces résidentiels, commerciaux et extérieurs, offrant à la fois praticité et style.",
+    "title2": "Vitrage guillotine thermique",
+    "subtitle2": "Notre système de vitrage guillotine le plus avancé combine des profilés en aluminium élégants avec du verre de haute qualité, offrant une solution contemporaine et fonctionnelle pour tout espace. Ce système entièrement automatique se distingue comme l’un des plus récents et innovants sur le marché, avec des caractéristiques conçues pour privilégier l’esthétique et la praticité.",
+    "title3": "Vitrage coulissant",
+    "subtitle3": "Notre système de vitrage coulissant offre une fusion parfaite entre praticité et esthétique, conçu pour transformer votre espace en offrant une vue dégagée. Le système glisse sans effort sur des rails durables, facilitant l’ouverture et la fermeture, tandis que son design élégant garantit une apparence moderne et épurée.",
+    "title4": "Vitrage coulissant-pliable",
+    "subtitle4": "Notre système coulissant et pliable offre une flexibilité maximale et une optimisation de l’espace, vous permettant d’ouvrir votre espace sans effort. Les vantaux se déplacent en douceur sur les rails et se replient proprement sur le côté – à gauche, à droite ou des deux côtés – vous offrant un contrôle total sur l’ouverture.",
+    "title5": "Systèmes de vitrage intérieur",
+    "subtitle5": "Nos systèmes de vitrage avancés sont conçus principalement pour une utilisation intérieure, tout en permettant des applications extérieures. Ces systèmes combinent technologie moderne et design élégant, pour un rendu sophistiqué et minimaliste.",
+    "title6": "Volet architectural",
+    "subtitle6": "Notre système de volets en polycarbonate contemporain offre une solution sophistiquée pour maximiser la fonctionnalité de vos espaces de vie, jardins d’hiver et terrasses. Doté de panneaux transparents en polycarbonate et de composants en aluminium durables, ce système permet de créer un espace protégé mais ouvert, sans sacrifier la lumière naturelle ou la vue.",
+    "title7": "Store zip",
+    "subtitle7": "Notre système de stores ZIP automatique allie style et fonctionnalité pour une utilisation intérieure et extérieure. Fabriqué avec des tissus de haute qualité et des composants électroniques avancés, ce système fournit une protection solaire fluide tout en améliorant l’esthétique de chaque espace."
+  },
+
+  "Pergole": {
+    "mainTitle": "Pergolas Tehnoplast",
+    "mainSubtitle": "Les solutions Eralux allient design moderne, haut niveau de sécurité, fonctionnalité et perfection esthétique, adaptées à vos besoins.",
+    "title1": "Pergolas en textile",
+    "subtitle1": "Une solution flexible et élégante pour la protection contre le soleil et les intempéries, idéale pour les terrasses, jardins et espaces extérieurs. Elles combinent design moderne et fonctionnalité, offrant confort, ombre et une touche esthétique à votre extérieur.",
+    "title2": "Pergolas bioclimatiques",
+    "subtitle2": "Une solution innovante permettant une régulation naturelle de la lumière, de la ventilation et de la protection contre les intempéries. Avec des lames orientables, elles offrent un équilibre parfait entre ombre et circulation de l’air, rendant chaque espace extérieur fonctionnel et esthétiquement attrayant.",
+    "title3": "Toit en verre – pergolas",
+    "subtitle3": "Une solution élégante et durable qui permet une pénétration maximale de la lumière naturelle tout en assurant une protection contre les intempéries. Idéale pour les extérieurs modernes, elle crée un espace aéré et sophistiqué avec une sensation d’ouverture et de confort."
+  },
+
+  "Garazna-vrata": {
+    "mainTitle": "Portes de garage Tehnoplast",
+    "mainSubtitle": "Les portes de garage sectionnelles offrent une excellente isolation thermique, tandis que le système enroulable permet un gain de place maximal – choisissez la solution la mieux adaptée à vos besoins.",
+    "title1": "Portes de garage sectionnelles",
+    "subtitle1": "Une solution pratique et fiable qui permet de gagner de l’espace tout en offrant une isolation thermique et acoustique optimale. Avec un design moderne et un mécanisme d’ouverture fluide, elles sont idéales pour la sécurité, la fonctionnalité et l’esthétique des garages.",
+    "title2": "Portes de garage enroulables",
+    "subtitle2": "Une solution compacte et efficace qui maximise l’espace grâce à un mécanisme d’ouverture simple. Elles se distinguent par leur grande durabilité, leur isolation thermique et leur sécurité, ce qui les rend idéales pour les garages de toutes tailles."
+  },
+  "Klizni-sistemi": {
+    "mainTitle": "Systèmes coulissants Tehnoplast",
+    "mainSubtitle": "Les solutions Eralux allient design moderne, haut niveau de sécurité, fonctionnalité et perfection esthétique, adaptées à vos besoins.",
+    "title1": "Systèmes coulissants à levage",
+    "subtitle1": "Une solution pratique et esthétiquement sophistiquée qui permet l’ouverture facile de grandes surfaces vitrées avec une stabilité maximale et une excellente isolation thermique. Un choix idéal pour les espaces lumineux, aérés et offrant une vue dégagée.",
+    "title2": "Systèmes coulissants à translation",
+    "subtitle2": "Une solution compacte et fonctionnelle combinant une ouverture facile avec une excellente isolation thermique et acoustique. Parfait pour les espaces nécessitant efficacité, gain de place et design moderne.",
+    "title3": "Systèmes coulissants classiques",
+    "subtitle3": "Une solution simple et pratique permettant une ouverture coulissante fluide tout en optimisant l’espace. Fiables, durables et bien isolés – parfaits pour différents types de bâtiments.",
+    "title4": "Systèmes accordéon",
+    "subtitle4": "Une solution flexible et fonctionnelle permettant une ouverture complète de l’espace grâce à un mécanisme pliant. Idéale pour les grandes ouvertures, elle offre une adaptabilité maximale, un gain d’espace et un aspect esthétique moderne."
+  },
+  "Ograde": {
+    "mainTitle": "Garde-corps et rampes Tehnoplast",
+    "mainSubtitle": "Les solutions Eralux allient design moderne, haut niveau de sécurité, fonctionnalité et perfection esthétique, adaptées à vos besoins.",
+    "title1": "Garde-corps et rampes",
+    "subtitle1": "Une solution sûre et esthétiquement adaptable qui combine durabilité, fonctionnalité et design moderne. Idéale pour les bâtiments résidentiels et commerciaux, elle offre protection et élégance visuelle."
+  },
+  "Prateca-Oprema": {
+    "mainTitle": "Accessoires complémentaires Tehnoplast",
+    "mainSubtitle": "Des équipements conçus pour améliorer le confort, la sécurité et l’esthétique de votre espace – avec une fonctionnalité maximale.",
+    "title1": "Cloisons sanitaires, moustiquaires et protection solaire",
+    "subtitle1": "Des solutions pratiques et efficaces qui assurent l’intimité, la protection contre les insectes et le contrôle de la lumière du soleil. Le choix idéal pour des espaces confortables et fonctionnels, avec durabilité et entretien facile."
+  },
+  "Kontakt": {
+    "mainTitle": "Contact Tehnoplast",
+    "mainSubtitle": "Tehnoplast est spécialisé dans la conception, la fabrication et l’installation de menuiseries en PVC et en aluminium, offrant des solutions de qualité pour les habitations et les espaces professionnels à travers l’Europe.",
+    "heading1": "Fabrication sans compromis",
+    "subheading1": "Nous adaptons chaque espace à vos souhaits, transformant vos idées en réalité grâce à un travail soigné et à des matériaux de haute qualité. Nos produits allient design, fonctionnalité et qualité, offrant des solutions sur mesure à chaque client.",
+    "btnTitle": "Si vous avez des questions supplémentaires, n’hésitez pas à nous contacter.",
+    "kontakt": [
+      {
+        "category": "Tehnoplast Lapovo",
+        "link": "",
+        "description": "En tant que siège de l’entreprise, Lapovo est le centre des opérations et du développement. C’est ici que se déroulent les processus clés de planification, de production et de contrôle qualité, avec un accent particulier sur l’amélioration de la communication et de l’image de marque.",
+        "items": [
+          {
+            "title": "Contact",
+            "list": ["+381 62 466 555", "office@tehnoplast.co.rs"]
+          },
+          {
+            "title": "Bureau",
+            "list": ["Kosovskih junaka 20, 34220 Lapovo, Serbie"]
+          }
+        ]
+      },
+      {
+        "category": "Tehnoplast Finances",
+        "link": "",
+        "description": "Le département financier de Tehnoplast est responsable d’une gestion efficace et transparente des ressources. Notre équipe soutient la planification budgétaire, le suivi des coûts et le reporting financier pour garantir la stabilité et la croissance de l’entreprise.",
+        "items": [
+          {
+            "title": "Contact",
+            "list": ["+381 69 466 555", "finansije@tehnoplast.co.rs"]
+          },
+          {
+            "title": "Bureau",
+            "list": ["Kosovskih junaka 20, 34220 Lapovo, Serbie"]
+          }
+        ]
+      },
+      {
+        "category": "Tehnoplast Požarevac",
+        "link": "",
+        "description": "Le centre régional de Požarevac permet une communication plus rapide et directe avec les clients de l’Est de la Serbie. Nous mettons l’accent sur l’assistance client, la présentation des produits et la logistique locale.",
+        "items": [
+          {
+            "title": "Contact",
+            "list": ["+381 62 159 9173", "pozarevac@tehnoplast.co.rs"]
+          },
+          {
+            "title": "Bureau",
+            "list": ["Nemanjina, 12000 Požarevac, Serbie"]
+          }
+        ]
+      },
+      {
+        "category": "Krefeld Düsseldorf, Allemagne",
+        "link": "",
+        "description": "Notre présence en Allemagne permet une collaboration directe avec les clients sur le marché européen. Grâce à nos opérations à Krefeld et Düsseldorf, nous assurons des livraisons rapides, un support technique et un accès local à nos solutions.",
+        "items": [
+          {
+            "title": "Contact",
+            "list": ["+381 62 159 9173", "pozarevac@tehnoplast.co.rs"]
+          },
+          {
+            "title": "Bureau",
+            "list": ["Krefeld Düsseldorf, Allemagne"]
+          }
+        ]
+      }
+    ]
+  },
+  "O-nama": {
+    "mainTitle": "Menuiseries PVC et ALU Tehnoplast.",
+    "mainSubtitle": "Tehnoplast est spécialisé dans la conception, la fabrication et l'installation de menuiseries en PVC et en aluminium, offrant des solutions de qualité pour les habitations et les espaces professionnels à travers l'Europe.",
+    "heading1": "Partout en Europe",
+    "subheading1": "Nous façonnons les espaces à travers l'Europe en associant un design contemporain, une fabrication haut de gamme et des matériaux de qualité. Nos projets en Allemagne, en France et en Serbie reflètent un engagement envers les détails, la fonctionnalité et l'innovation, offrant des solutions adaptées aux besoins spécifiques des clients.",
+    "proces": [
+      {
+        "category": "1. Contact Bureau",
+        "link": "",
+        "description": "Notre stratégie permet d'optimiser la communication, de répondre aux besoins de l'entreprise et de s'aligner sur votre marque. En créant des solutions fonctionnelles et esthétiques, nous vous aidons à renforcer les liens avec vos clients, à améliorer la productivité et à accroître votre notoriété sur le marché.",
+        "items": [
+          {
+            "title": "Contact",
+            "list": ["+381 62 466 555", "info@tehnoplast.co.rs"]
+          },
+          {
+            "title": "Bureau",
+            "list": ["Kosovskih junaka 20, 34220 Lapovo, Serbie"]
+          }
+        ]
+      },
+      {
+        "category": "2. Prise de mesures",
+        "link": "",
+        "description": "Mesurage précis et conseils d'experts pour des solutions parfaitement adaptées.",
+        "items": [
+          {
+            "title": "Planification de l'espace",
+            "list": [
+              "Analyse des besoins et optimisation de l'environnement de travail",
+              "Définition des éléments clés de l'espace de bureau",
+              "Compréhension des exigences des utilisateurs et de la dynamique commerciale",
+              "Établissement d'objectifs stratégiques pour une organisation efficace"
+            ]
+          },
+          {
+            "title": "Conception et conseils",
+            "list": [
+              "Création d'un intérieur fonctionnel et esthétiquement adapté",
+              "Optimisation des canaux de communication et des points de contact",
+              "Développement d'unités de travail modulaires et adaptables"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "3. Soumission de l'offre",
+        "link": "",
+        "description": "Nous nous concentrons sur la précision, la flexibilité et la présentation esthétique pour faciliter la compréhension et la prise de décision.",
+        "items": [
+          {
+            "title": "Processus de création de l'offre",
+            "list": [
+              "Analyse des exigences et définition des paramètres clés",
+              "Structuration stratégique de l'offre en fonction des objectifs commerciaux",
+              "Détails clairement structurés et spécifications techniques"
+            ]
+          },
+          {
+            "title": "Présentation et adaptation",
+            "list": [
+              "Documentation visuellement attrayante et professionnellement conçue",
+              "Transparence sur les prix, délais et conditions de collaboration",
+              "Possibilité d'adapter l'offre en fonction des besoins du client"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "4. Fabrication de menuiseries",
+        "link": "",
+        "description": "Notre processus de fabrication garantit durabilité, fonctionnalité et esthétique, avec une adaptation aux exigences spécifiques des clients. Nous utilisons des matériaux de qualité et des méthodes modernes pour fournir des menuiseries répondant aux normes les plus élevées.",
+        "items": [
+          {
+            "title": "Processus de fabrication",
+            "list": [
+              "Adaptation des dimensions et spécifications techniques",
+              "Utilisation de matériaux de haute qualité et traitement précis",
+              "Tests de résistance et finition"
+            ]
+          },
+          {
+            "title": "Design et fonctionnalité",
+            "list": [
+              "Détails esthétiques harmonisés et systèmes d'ouverture modernes",
+              "Optimisation de l'isolation et de l'efficacité énergétique",
+              "Flexibilité dans le choix des couleurs, finitions et options supplémentaires"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "5. Transport et installation",
+        "link": "",
+        "description": "Notre équipe assure une livraison sécurisée et une installation précise, dans le respect des normes techniques et des exigences des clients. L'efficacité, l'attention aux détails et une perturbation minimale garantissent un travail rapide et de qualité.",
+        "items": [
+          {
+            "title": "Transport sécurisé",
+            "list": [
+              "Emballage soigné et protection des éléments",
+              "Livraison ponctuelle à l'endroit souhaité",
+              "Respect de tous les protocoles logistiques et de sécurité"
+            ]
+          },
+          {
+            "title": "Installation professionnelle",
+            "list": [
+              "Nivellement précis et pose des menuiseries",
+              "Assurance d'une isolation et d'une fonctionnalité optimales",
+              "Travaux de finition et vérification avant la remise au client"
+            ]
+          }
+        ]
+      }
+    ],
+    "heading2": "Fabrication sans compromis",
+    "subheading2": "Nous adaptons chaque espace à vos souhaits, transformant vos idées en réalité grâce à un travail soigné et à des matériaux de qualité. Nos produits allient design, fonctionnalité et qualité, pour des solutions sur mesure adaptées à chaque client.",
+    "kontakt": [
+      {
+        "category": "Tehnoplast Lapovo",
+        "link": "",
+        "description": "En tant que siège de l'entreprise, Lapovo est le centre des opérations et du développement. Les processus clés de planification, de production et de contrôle qualité s'y déroulent, avec un accent particulier sur l'amélioration de la communication et de l'image de marque.",
+        "items": [
+          {
+            "title": "Contact",
+            "list": ["+381 62 466 555", "office@tehnoplast.co.rs"]
+          },
+          {
+            "title": "Bureau",
+            "list": ["Kosovskih junaka 20, 34220 Lapovo, Serbie"]
+          }
+        ]
+      },
+      {
+        "category": "Tehnoplast Finances",
+        "link": "",
+        "description": "Le département financier de Tehnoplast est responsable de la gestion transparente et efficace des ressources. Notre équipe soutient la planification budgétaire, le suivi des coûts et les rapports financiers pour garantir la stabilité et la croissance de l'entreprise.",
+        "items": [
+          {
+            "title": "Contact",
+            "list": ["+381 69 466 555", "finansije@tehnoplast.co.rs"]
+          },
+          {
+            "title": "Bureau",
+            "list": ["Kosovskih junaka 20, 34220 Lapovo, Serbie"]
+          }
+        ]
+      },
+      {
+        "category": "Tehnoplast Požarevac",
+        "link": "",
+        "description": "Le centre régional de Požarevac permet une communication plus rapide et directe avec les clients de l'est de la Serbie. Nous sommes axés sur le support client de qualité, la présentation des produits et la logistique locale.",
+        "items": [
+          {
+            "title": "Contact",
+            "list": ["+381 62 159 9173", "pozarevac@tehnoplast.co.rs"]
+          },
+          {
+            "title": "Bureau",
+            "list": ["Nemanjina, 12000 Požarevac, Serbie"]
+          }
+        ]
+      },
+      {
+        "category": "Krefeld Düsseldorf, Allemagne",
+        "link": "",
+        "description": "Notre présence en Allemagne permet une collaboration directe avec les clients sur le marché de l'UE. Grâce à nos opérations à Krefeld et Düsseldorf, nous assurons des livraisons rapides, une assistance technique et un accès local à nos solutions.",
+        "items": [
+          {
+            "title": "Contact",
+            "list": ["+381 62 159 9173", "pozarevac@tehnoplast.co.rs"]
+          },
+          {
+            "title": "Bureau",
+            "list": ["Krefeld Düsseldorf, Allemagne"]
+          }
+        ]
+      }
+    ]
+  },
+
+  "Menu": {
+    "products": [
+      {
+        "name": "Fenêtres",
+        "link": "/prozori"
+      },
+      {
+        "name": "Portes",
+        "link": "/vrata"
+      },
+      {
+        "name": "Systèmes de vitrage",
+        "link": "/sistemi-ostakljivanja"
+      },
+      {
+        "name": "Façades",
+        "link": "/fasade"
+      },
+      {
+        "name": "Pergolas",
+        "link": "/pergole"
+      },
+      {
+        "name": "Systèmes coulissants",
+        "link": "/klizni-sistemi"
+      },
+      {
+        "name": "Portes de garage",
+        "link": "/garazna-vrata"
+      },
+      {
+        "name": "Garde-corps et rampes",
+        "link": "/ograde-i-gelenderi"
+      },
+      {
+        "name": "Accessoires complémentaires",
+        "link": "/prateca-oprema"
+      }
+    ],
+    "linx": [
+      {
+        "name": "Accueil",
+        "link": "/"
+      },
+      {
+        "name": "À propos",
+        "link": "/o-nama"
+      },
+      {
+        "name": "Contact",
+        "link": "/kontakt"
+      }
+    ],
+    "jezik": "Langue",
+    "kontakt": "Contact"
+    
+  }
 }

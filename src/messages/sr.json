@@ -1,6 +1,811 @@
 {
-    "Home": {
-        "title":"Na vašoj strani.",
-        "subtitle":"Firma Tehnoplast se bavi proizvodnjom i ugradnjom ALU i PVC stolarije od 2001. godine. Na osnovu našeg iskustva možemo Vam garantovati kvalitet naših proizvoda."
-    }
+  "Home": {
+    "mainTitle": "Potpuno rešenje za izradu i ugradnju PVC & ALU stolarije",
+    "mainSubtitle": "Tehnoplast je specijalizovan za dizajn, proizvodnju i ugradnju PVC i ALU stolarije, pružajući kvalitetna rešenja za domove i poslovne prostore širom Evrope.",
+    "heading1": "Beskompromisna izrada",
+    "subheading1": "Svaki prostor prilagođavamo vašim željama, pretvarajući ideje u stvarnost pažljivom izradom i vrhunskim materijalima. Naši proizvodi kombinuju dizajn, funkcionalnost i kvalitet, pružajući rešenja skrojena po meri svakog klijenta.",
+    "btnTitle": "Ukoliko imate dodatnih pitanja budite slobodni da nas kontaktirate.",
+    "btn1": "Kontaktirajte nas.",
+    "detaljnije": "Detaljnije",
+    "accordBtn": "Pogledajte detaljnije naše radove.",
+    "izrada": [
+      {
+        "category": "Prozori",
+        "link": "/prozori",
+        "description": "U ponudi imamo ALU, PVC i ALU-KLIP prozore, koji kombinuju kvalitetne materijale i moderni dizajn za maksimalnu funkcionalnost i udobnost.",
+        "items": [
+          {
+            "title": "Aluminijumski prozori",
+            "list": [
+              "Obrada najsavremenijim metodama",
+              "Precizno sečenje",
+              "Vrhunska završna estetika",
+              "Dugotrajna zaštita"
+            ]
+          },
+          {
+            "title": "PVC prozori",
+            "list": [
+              "Napredna obrada",
+              "Precizno oblikovanje",
+              "Dug vek trajanja",
+              "Besprekorna završna obrada"
+            ]
+          },
+          {
+            "title": "Alu-klip prozori",
+            "list": [
+              "Kombinacija aluminijuma i PVC-a",
+              "Precizna obrada",
+              "Elegantan dizajn",
+              "Dugotrajna otpornost"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Vrata",
+        "link": "/vrata",
+        "description": "Nudimo ALU, PVC i vrata sa skrivenim krilom, koja spajaju vrhunske materijale i moderan dizajn, pružajući visoku sigurnost, funkcionalnost i estetiku.",
+        "items": [
+          {
+            "title": "Aluminijumska vrata",
+            "list": [
+              "Obrada najsavremenijim metodama",
+              "Precizno sečenje",
+              "Vrhunska završna estetika"
+            ]
+          },
+          {
+            "title": "PVC vrata",
+            "list": [
+              "Napredna obrada",
+              "Precizno oblikovanje",
+              "Dug vek trajanja"
+            ]
+          },
+          {
+            "title": "Skriveno krilo - sistemi",
+            "list": [
+              "Precizna obrada",
+              "Elegantan dizajn",
+              "Dugotrajna otpornost"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Sistemi ostakljivanja",
+        "link": "/sistemi-ostakljivanja",
+        "description": "Eralux rešenja kombinuju moderan dizajn, visok nivo sigurnosti, funkcionalnost i estetsku perfekciju, prilagođena vašim potrebama.",
+        "items": [
+          {
+            "title": "Giljotina stakla",
+            "list": ["Obrada najsavremenijim metodama", "Precizno sečenje"]
+          },
+          {
+            "title": "Termo giljotina stakla",
+            "list": ["Obrada najsavremenijim metodama"]
+          },
+          {
+            "title": "Klizna stakla",
+            "list": ["Obrada najsavremenijim metodama"]
+          },
+          {
+            "title": "Sklopiva stakla",
+            "list": ["Obrada najsavremenijim metodama"]
+          },
+          {
+            "title": "Klizno sklopivo staklo",
+            "list": ["Obrada najsavremenijim metodama"]
+          },
+          {
+            "title": "Interni stakleni sistem",
+            "list": ["Obrada najsavremenijim metodama"]
+          },
+          {
+            "title": "Arhitektonska roletna",
+            "list": ["Obrada najsavremenijim metodama"]
+          },
+          {
+            "title": "Zip zavesa",
+            "list": ["Obrada najsavremenijim metodama"]
+          },
+          {
+            "title": "Unutrasnja zavesa",
+            "list": ["Obrada najsavremenijim metodama"]
+          }
+        ]
+      },
+      {
+        "category": "Fasade",
+        "link": "/fasade",
+        "description": "Izdržljive, energetski efikasne i estetski prilagodljive, naše fasade pružaju dugotrajnu zaštitu i moderan izgled svakom objektu.",
+        "items": [
+          {
+            "title": "Staklene fasade",
+            "list": [
+              "Obrada najsavremenijim metodama",
+              "Precizno sečenje",
+              "Vrhunska završna estetika"
+            ]
+          },
+          {
+            "title": "Element fasade",
+            "list": [
+              "Obrada najsavremenijim metodama",
+              "Precizno sečenje",
+              "Vrhunska završna estetika"
+            ]
+          },
+          {
+            "title": "Alu-bond fasade",
+            "list": [
+              "Obrada najsavremenijim metodama",
+              "Precizno sečenje",
+              "Vrhunska završna estetika"
+            ]
+          },
+          {
+            "title": "Ventilirajuce fasade",
+            "list": [
+              "Obrada najsavremenijim metodama",
+              "Precizno sečenje",
+              "Vrhunska završna estetika"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Pergole",
+        "link": "/pergole",
+        "description": "Savršeno rešenje za zaštitu od sunca i kiše, naše pergole spajaju funkcionalnost i moderan dizajn, pružajući udobnost i eleganciju u svakom eksterijeru.",
+        "items": [
+          {
+            "title": "Tekstilna pergola",
+            "list": [
+              "Obrada najsavremenijim metodama",
+              "Precizno sečenje",
+              "Vrhunska završna estetika"
+            ]
+          },
+          {
+            "title": "Bioklimatska pergola",
+            "list": [
+              "Obrada najsavremenijim metodama",
+              "Precizno sečenje",
+              "Vrhunska završna estetika"
+            ]
+          },
+          {
+            "title": "Stakleni krov",
+            "list": [
+              "Obrada najsavremenijim metodama",
+              "Precizno sečenje",
+              "Vrhunska završna estetika"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Klizni sistemi",
+        "link": "/klizni-sistemi",
+        "description": "Naši klizni sistemi, uključujući podizno-klizne, uskočno-klizne, klasične i akordion sisteme, pružaju maksimalnu funkcionalnost, elegantan dizajn i optimalnu iskorišćenost prostora.",
+        "items": [
+          {
+            "title": "Podizno-klizni",
+            "list": ["Obrada najsavremenijim metodama", "Precizno sečenje"]
+          },
+          {
+            "title": "Uskočno-klizni",
+            "list": ["Napredna obrada"]
+          },
+          {
+            "title": "Klasično-klizni",
+            "list": ["Kombinacija aluminijuma i PVC-a", "Precizna obrada"]
+          },
+          {
+            "title": "Akordion sistemi",
+            "list": ["Kombinacija aluminijuma i PVC-a", "Precizna obrada"]
+          }
+        ]
+      },
+      {
+        "category": "Garažna vrata",
+        "link": "/garazna-vrata",
+        "description": "Garažna vrata predstavljaju idealno rešenje za sigurnost, funkcionalnost i estetiku vašeg prostora. Kombinuju visokokvalitetne materijale sa modernim mehanizmima za dugotrajnu upotrebu i pouzdanost.",
+        "items": [
+          {
+            "title": "Rolo vrata",
+            "list": [
+              "Kompaktno i praktično rešenje",
+              "Sistem otvaranja prema gore i mogućnošću automatizacije"
+            ]
+          },
+          {
+            "title": "Segmentna vrata",
+            "list": [
+              "Robusna i termoizolaciona opcija",
+              "Elegantan dizajn",
+              "Prilagođen svim vrstama objekata"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Ograde i gelenderi",
+        "link": "/ograde-i-gelenderi",
+        "description": "Ograde i gelenderi su savršeno rešenje za sigurnost, estetiku i funkcionalnost vašeg prostora. Spoj visokokvalitetnih materijala i savremenog dizajna osigurava dugotrajnost, stabilnost i elegantan izgled.",
+        "items": [
+          {
+            "title": "Pogledajte naše radove",
+            "list": []
+          }
+        ]
+      },
+      {
+        "category": "Prateća oprema",
+        "link": "/prateca-oprema",
+        "description": "Prateća oprema omogućava dodatnu zaštitu, funkcionalnost i udobnost, prilagođavajući vaše prozore i vrata savremenim potrebama.",
+        "items": [
+          {
+            "title": "Komarnici",
+            "list": [
+              "Efikasna zaštita od insekata",
+              "Dostupna u fiksnim, rolo, pliše i u varijantama američkih vrata."
+            ]
+          },
+          {
+            "title": "Zaštita od sunca",
+            "list": ["Spoljnja", "Termo"]
+          },
+          {
+            "title": "Sanitarne pregrade",
+            "list": []
+          }
+        ]
+      }
+    ],
+    "heading2": "Dostavljamo samo uspešne projekte",
+    "subheading2": "Naši proizvodi u izgradnji nosivih konstrukcija i u svim vrstama ograda, kako u industrijskom tako i u privatnom sektoru.",
+    "stats": [
+      {
+        "title": "100+",
+        "description": "Zaposlenih",
+        "text": "Stručan tim posvećen inovacijama i vrhunskim rezultatima u svakom projektu."
+      },
+      {
+        "title": "30",
+        "description": "Godina iskustva",
+        "text": "Tri decenije stručnosti, posvećenosti i uspeha u industriji."
+      },
+      {
+        "title": "1000+",
+        "description": "Projekata",
+        "text": "Hiljade uspešno završenih projekata uz posvećenost i preciznost."
+      },
+      {
+        "title": "100%",
+        "description": "Zadovoljnih klijenata",
+        "text": "Naš prioritet je svaki klijent – poverenje, kvalitet i dugoročna saradnja."
+      }
+    ],
+    "heading3": "Širom Evrope",
+    "subheading3": "Oblikujemo prostore širom Evrope, spajajući savremeni dizajn, vrhunsku izradu i visokokvalitetne materijale. Naši projekti u Nemačkoj, Francuskoj i Srbiji odražavaju posvećenost detaljima, funkcionalnosti i inovacijama, pružajući rešenja prilagođena specifičnim potrebama klijenata.",
+    "proces": [
+      {
+        "category": "1. Office Contact",
+        "link": "",
+        "description": "Naša strategija omogućava optimizaciju komunikacije, prilagođavanje poslovnim potrebama i usklađivanje sa vašim brendom. Kreiranjem funkcionalnih i estetski usklađenih rešenja, pomažemo vam da ostvarite bolju povezanost sa klijentima, povećate produktivnost i ojačate prepoznatljivost na tržištu.",
+        "items": [
+          {
+            "title": "Kontakt",
+            "list": ["+381 62 466 555", "info@tehnoplast.co.rs"]
+          },
+          {
+            "title": "Office",
+            "list": ["Kosovskih junaka 20, 34220 Lapovo, Srbija"]
+          }
+        ]
+      },
+      {
+        "category": "2. Uzimanje mera",
+        "link": "",
+        "description": "Precizno merenje i stručne konsultacije za savršeno prilagođena rešenja.",
+        "items": [
+          {
+            "title": "Planiranje prostora",
+            "list": [
+              "Analiza potreba i optimizacija radnog okruženja",
+              "Definisanje ključnih elemenata kancelarijskog prostora",
+              "Razumevanje korisničkih zahteva i poslovne dinamike",
+              "Postavljanje strateških ciljeva za efikasnu organizaciju"
+            ]
+          },
+          {
+            "title": "Dizajn i konsultacije",
+            "list": [
+              "Kreiranje funkcionalnog i estetski prilagođenog enterijera",
+              "Optimizacija komunikacionih kanala i kontakt tačaka",
+              "Razvoj modularnih i prilagodljivih radnih jedinica"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "3. Davanje ponuda",
+        "link": "",
+        "description": "Fokusiramo se na tačnost, fleksibilnost i estetsku prezentaciju kako bismo omogućili lako razumevanje i donošenje odluka.",
+        "items": [
+          {
+            "title": "Proces kreiranja ponude",
+            "list": [
+              "Analiza zahteva i definisanje ključnih parametara",
+              "Strateško oblikovanje ponude u skladu sa poslovnim ciljevima",
+              "Jasno strukturisani detalji i tehničke specifikacije"
+            ]
+          },
+          {
+            "title": "Prezentacija i prilagođavanje",
+            "list": [
+              "Vizuelno atraktivna i profesionalno oblikovana dokumentacija",
+              "Transparentnost u cenama, rokovima i uslovima saradnje",
+              "Mogućnost prilagođavanja ponude prema potrebama klijenta"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "4. Izrada stolarije",
+        "link": "",
+        "description": "Naš proces proizvodnje garantuje dugotrajnost, funkcionalnost i estetiku, uz prilagođavanje specifičnim zahtevima klijenata. Koristimo kvalitetne materijale i savremene metode obrade kako bismo obezbedili stolariju koja ispunjava najviše standarde.",
+        "items": [
+          {
+            "title": "Proces izrade",
+            "list": [
+              "Prilagođavanje dimenzija i tehničkih specifikacija",
+              "Korišćenje visokokvalitetnih materijala i precizna obrada",
+              "Testiranje izdržljivosti i završna dorada"
+            ]
+          },
+          {
+            "title": "Dizajn i funkcionalnost",
+            "list": [
+              "Estetski usklađeni detalji i moderni sistemi otvaranja",
+              "Optimizacija izolacije i energetske efikasnosti",
+              "Fleksibilnost u izboru boja, završnih obrada i dodatnih opcija"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "5. Transport i ugradnja",
+        "link": "",
+        "description": "Naš tim osigurava sigurno dopremanje i preciznu montažu, uz poštovanje svih tehničkih standarda i specifičnih zahteva klijenata. Efikasnost, pažnja prema detaljima i minimalno ometanje prostora garantuju brzo i kvalitetno izvođenje radova.",
+        "items": [
+          {
+            "title": "Siguran transport",
+            "list": [
+              "Pažljivo pakovanje i zaštita elemenata",
+              "Pravovremena isporuka na željenu lokaciju",
+              "Pridržavanje svih logističkih i sigurnosnih protokola"
+            ]
+          },
+          {
+            "title": "Profesionalna ugradnja",
+            "list": [
+              "Precizno nivelisanje i postavljanje stolarije",
+              "Osiguravanje optimalne izolacije i funkcionalnosti",
+              "Završi radovi i provera ispravnosti pre predaje klijentu"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "Prozori": {
+    "mainTitle": "Tehnoplast prozori",
+    "mainSubtitle": "U ponudi imamo ALU, PVC i ALU-KLIP prozore, koji kombinuju kvalitetne materijale i moderni dizajn za maksimalnu funkcionalnost i udobnost.",
+    "prozori1title": "Aluminijumski prozori",
+    "prozori1subtitle": "Naši proizvodi u izgradnji nosivih konstrukcija i u svim vrstama ograda, kako u industrijskom tako i u privatnom sektoru.",
+    "prozori2title": "PVC prozori",
+    "prozori2subtitle": "Naši prozori pružaju pouzdanost i dugotrajnost u svim vrstama objekata, bilo da se radi o industrijskim ili privatnim prostorima. Kvalitetna izrada i savremeni materijali garantuju sigurnost i estetsku vrednost.",
+    "prozori3title": "Alu klip prozori",
+    "prozori3subtitle": "Naši alu klip prozori kombinuju izdržljivost aluminijuma sa modernim dizajnom, pružajući dugotrajna i estetski prilagođena rešenja za industrijske i stambene objekte. Idealni su za savremene prostore koji zahtevaju funkcionalnost i vrhunski kvalitet."
+  },
+
+  "Vrata": {
+    "mainTitle": "Tehnoplast Vrata",
+    "mainSubtitle": "Bez obzira da li birate aluminijumska vrata zbog izdržljivosti, PVC vrata zbog energetske efikasnosti ili skriveno krilo sistem za moderan i minimalistički izgled, pronađite idealno rešenje za svoj prostor.",
+    "vrata1title": "Aluminijumska vrata",
+    "vrata1subtitle": "Naša aluminijumska vrata nude savršen spoj čvrstoće, elegancije i dugotrajnosti, prilagođena kako industrijskim, tako i stambenim objektima. Sa modernim dizajnom i vrhunskom izradom, pružaju sigurnost, funkcionalnost i estetsku vrednost.",
+    "vrata2title": "Skriveno krilo - sistemi",
+    "vrata2subtitle": "Sistemi sa skrivenim krilom pružaju moderan i sofisticiran izgled, omogućavajući veću površinu stakla i više prirodne svetlosti. Sa čistim linijama i diskretnim okvirom, idealni su za savremene objekte koji teže minimalizmu i funkcionalnosti."
+  },
+
+  "Fasade": {
+    "mainTitle": "Tehnoplast Fasade",
+    "mainSubtitle": "Eralux rešenja kombinuju moderan dizajn, visok nivo sigurnosti, funkcionalnost i estetsku perfekciju, prilagođena vašim potrebama.",
+    "fasade1title": "Staklene fasade",
+    "fasade1subtitle": "Elegantan i savremen dizajn koji omogućava maksimalan prodor prirodne svetlosti, poboljšava energetsku efikasnost i doprinosi estetici svakog objekta. Idealno rešenje za moderne poslovne i stambene prostore koji spajaju funkcionalnost i vrhunski vizuelni efekat.",
+    "fasade2title": "Element fasade",
+    "fasade2subtitle": "Modularno i efikasno rešenje koje omogućava brzu montažu, vrhunsku termoizolaciju i moderan dizajn. Sa preciznom izradom i visokokvalitetnim materijalima, osigurava dugotrajnost, stabilnost i estetsku usklađenost sa savremenom arhitekturom.",
+    "fasade3title": "Alubond fasade",
+    "fasade3subtitle": "Lagana, izdržljiva i estetski prilagodljiva rešenja koja kombinuju vrhunsku otpornost na vremenske uslove sa modernim dizajnom. Idealan izbor za savremene objekte, pružajući dugotrajnost, energetski efikasnost i sofisticiran vizuelni efekat.",
+    "fasade4title": "Ventilirajuce fasade",
+    "fasade4subtitle": "Savremeno fasadno rešenje koje poboljšava energetsku efikasnost objekta, omogućava optimalnu termoizolaciju i sprečava kondenzaciju. Kombinuje funkcionalnost i estetiku, pružajući dugotrajnu zaštitu i moderan arhitektonski izraz."
+  },
+
+  "Sistemi-ostaklivanja": {
+    "mainTitle": "Sistemi ostakljivanja",
+    "mainSubtitle": "Eralux rešenja kombinuju moderan dizajn, visok nivo sigurnosti, funkcionalnost i estetsku perfekciju, prilagođena vašim potrebama.",
+    "title1": "Giljotina stakla",
+    "subtitle1": "Sa nizom opcija za prilagođavanje, možete birati između različitih vrsta stakla i Sa nizom opcija za prilagođavanje, možete birati između različitih vrsta stakla i konfiguracija otvaranja, uključujući dizajne sa 2, 3 ili 4 krila. Ovaj svestrani sistem je idealan za stambene, komercijalne i spoljne prostore, nudeći i praktičnost i stil.",
+    "title2": "Termo giljotina stakla",
+    "subtitle2": "Naš najmoderniji sistem giljotinskog stakla kombinuje elegantne aluminijumske profile sa visokokvalitetnim staklom, pružajući savremeno i funkcionalno rešenje za svaki prostor. Ovaj potpuno automatski sistem izdvaja se kao jedan od najnovijih i najnaprednijih na tržištu, dizajniran sa inovativnim karakteristikama koje prioritet stavljaju na estetiku i praktičnost.",
+    "title3": "Klizno staklo",
+    "subtitle3": "Naš Klizni Sistemi za Stakla nudi besprekorno spajanje praktičnosti i estetike, dizajniran da transformiše vaš prostor, pružajući nesmetan pogled. Sistem se klizi bez napora duž izdržljivih šina, olakšavajući otvaranje ili zatvaranje, dok njegov elegantan dizajn osigurava moderan i čist vizuelni dojam.",
+    "title4": "Klizno sklopivo staklo",
+    "subtitle4": "Naš Klizni i Sklopivi Sistem Krila nudi maksimalnu fleksibilnost i optimizaciju prostora, omogućavajući vam da bez napora otvorite svoj prostor. Krila se glatko pomeraju na šinama i sklopljena uredno ostaju sa strane—bilo levo, desno, ili obe strane—dajući vam potpunu kontrolu nad količinom otvorenog prostora.",
+    "title5": "Interni stakleni sistemi",
+    "subtitle5": "Naši napredni sistemi za staklenje dizajnirani su sa fokusom na unutrašnju upotrebu, dok takođe omogućavaju i spoljne primene. Ovi sistemi kombinuju modernu tehnologiju i elegantan dizajn, pružajući sofisticiran, minimalistički izgled.",
+    "title6": "Arhitektonska roletna",
+    "subtitle6": "Naš Savremeni Sistem Roleta od Polikarbonata nudi sofisticirano rešenje za maksimalno korišćenje funkcionalnosti vaših životnih prostora, zimskih vrtova i terasa. Dizajniran sa transparentnim polikarbonatnim pločama i izdržljivim aluminijumskim komponentama, ovaj sistem omogućava vam da stvorite zaštićen, ali otvoren prostor, bez žrtvovanja prirodne svetlosti ili pogleda.",
+    "title7": "Zip zavesa",
+    "subtitle7": "Naš Automatski ZIP Sistem Zavesa nudi savršen spoj stila i funkcionalnosti za spoljašnju i unutrašnju primenu. Napravljen od visokokvalitetnih tkanina i naprednih elektronskih komponenata, ovaj sistem je dizajniran da pruži besprekornu senku, dok istovremeno poboljšava estetski izgled svakog prostora."
+  },
+
+  "Pergole": {
+    "mainTitle": "Tehnoplast Pergole",
+    "mainSubtitle": "Eralux rešenja kombinuju moderan dizajn, visok nivo sigurnosti, funkcionalnost i estetsku perfekciju, prilagođena vašim potrebama.",
+    "title1": "Tekstilne pergole",
+    "subtitle1": "Fleksibilno i elegantno rešenje za zaštitu od sunca i vremenskih uslova, idealno za terase, bašte i otvorene prostore. Kombinuju moderan dizajn sa funkcionalnošću, pružajući udobnost, hladovinu i estetski doprinos eksterijeru.",
+    "title2": "Bioklimatske pergole",
+    "subtitle2": "Inovativno rešenje koje omogućava prirodnu regulaciju svetlosti, ventilacije i zaštite od vremenskih uslova. Sa podesivim lamelama, pružaju savršen balans između hlada i prozračnosti, čineći svaki eksterijer funkcionalnim i estetski atraktivnim.",
+    "title3": "Stakleni krov - pergole",
+    "subtitle3": "Elegantno i dugotrajno rešenje koje omogućava maksimalan prodor prirodne svetlosti uz zaštitu od vremenskih uslova. Idealno za moderne eksterijere, stvara prozračan i sofisticiran prostor sa osećajem otvorenosti i udobnosti."
+  },
+
+  "Garazna-vrata": {
+    "mainTitle": "Tehnoplast Garažna vrata",
+    "mainSubtitle": "Segmentna garažna vrata pružaju odličnu termoizolaciju, dok rolo sistem omogućava maksimalnu uštedu prostora – odaberite rešenje koje najbolje odgovara vašim potrebama.",
+    "title1": "Segmentna garažna vrata",
+    "subtitle1": "Praktično i pouzdano rešenje koje štedi prostor i obezbeđuje vrhunsku termo i zvučnu izolaciju. Sa modernim dizajnom i glatkim mehanizmom otvaranja, idealna su za sigurnost, funkcionalnost i estetski izgled garažnih prostora.",
+    "title2": "Rolo garažna vrata",
+    "subtitle2": "Kompaktno i efikasno rešenje koje omogućava maksimalnu uštedu prostora uz jednostavan mehanizam otvaranja. Odlikuju se visokom izdržljivošću, termoizolacijom i sigurnošću, čineći ih idealnim za garaže različitih dimenzija."
+  },
+
+  "Klizni-sistemi": {
+    "mainTitle": "Tehnoplast Klizni sistemi",
+    "mainSubtitle": "Eralux rešenja kombinuju moderan dizajn, visok nivo sigurnosti, funkcionalnost i estetsku perfekciju, prilagođena vašim potrebama.",
+    "title1": "Podizno-klizni sistemi",
+    "subtitle1": "Praktično i estetski sofisticirano rešenje koje omogućava lako otvaranje velikih staklenih površina uz maksimalnu stabilnost i toplotnu izolaciju. Idealan izbor za prostore koji teže prozračnosti, prirodnom osvetljenju i neometanom pogledu.",
+    "title2": "Uskočno-klizni sistemi",
+    "subtitle2": "Kompaktno i funkcionalno rešenje koje kombinuje lakoću otvaranja sa visokim nivoom termo i zvučne izolacije. Idealan izbor za prostore koji zahtevaju efikasnost, uštedu prostora i moderan dizajn.",
+    "title3": "Klasično-klizni sistemi",
+    "subtitle3": "Jednostavno i praktično rešenje koje omogućava lako klizno otvaranje uz optimizaciju prostora. Odlikuju se pouzdanošću, dugotrajnošću i dobrim izolacionim svojstvima, čineći ih idealnim za različite vrste objekata.",
+    "title4": "Akordion sistemi",
+    "subtitle4": "Fleksibilno i funkcionalno rešenje koje omogućava potpuno otvaranje prostora zahvaljujući sklopivom mehanizmu. Idealni za velike otvore, pružaju maksimalnu prilagodljivost, uštedu prostora i moderan estetski izgled."
+  },
+  "Ograde": {
+    "mainTitle": "Tehnoplast Ograde i Gelenderi",
+    "mainSubtitle": "Eralux rešenja kombinuju moderan dizajn, visok nivo sigurnosti, funkcionalnost i estetsku perfekciju, prilagođena vašim potrebama.",
+    "title1": "Ograde i gelenderi",
+    "subtitle1": "Sigurno i estetski prilagodljivo rešenje koje kombinuje dugotrajnost, funkcionalnost i moderan dizajn. Idealni za stambene i poslovne objekte, pružaju zaštitu uz elegantan vizuelni efekat."
+  },
+  "Prateca-Oprema": {
+    "mainTitle": "Tehnoplast Prateća oprema",
+    "mainSubtitle": "Prateća oprema dizajnirana da unapredi udobnost, sigurnost i estetiku vašeg prostora – uz maksimalnu funkcionalnost.",
+    "title1": "Sanitrane pregrade, komarnici i zaštita od sunca",
+    "subtitle1": "Praktična i efikasna rešenja koja obezbeđuju privatnost, zaštitu od insekata i kontrolu sunčeve svetlosti. Idealan izbor za funkcionalne i udobne prostore, uz dugotrajnost i jednostavno održavanje."
+  },
+
+  "Kontakt": {
+    "mainTitle": "Tehnoplast Kontakt",
+    "mainSubtitle": "Tehnoplast je specijalizovan za dizajn, proizvodnju i ugradnju PVC i ALU stolarije, pružajući kvalitetna rešenja za domove i poslovne prostore širom Evrope.",
+    "heading1": "Beskompromisna izrada",
+    "subheading1": "Svaki prostor prilagođavamo vašim željama, pretvarajući ideje u stvarnost pažljivom izradom i vrhunskim materijalima. Naši proizvodi kombinuju dizajn, funkcionalnost i kvalitet, pružajući rešenja skrojena po meri svakog klijenta.",
+    "btnTitle": "Ukoliko imate dodatnih pitanja budite slobodni da nas kontaktirate.",
+    "kontakt": [
+      {
+        "category": "Tehnoplast Lapovo",
+        "link": "",
+        "description": "Kao sedište kompanije, Lapovo predstavlja centar operacija i razvoja. Ovde se odvijaju ključni procesi planiranja, proizvodnje i kontrole kvaliteta, uz poseban fokus na unapređenje komunikacije i brendiranja.",
+        "items": [
+          {
+            "title": "Kontakt",
+            "list": ["+381 62 466 555", "office@tehnoplast.co.rs"]
+          },
+          {
+            "title": "Office",
+            "list": ["Kosovskih junaka 20, 34220 Lapovo, Srbija"]
+          }
+        ]
+      },
+      {
+        "category": "Tehnoplast Finansije",
+        "link": "",
+        "description": "Finansijski sektor Tehnoplasta odgovoran je za transparentno i efikasno upravljanje resursima. Naš tim pruža podršku u planiranju budžeta, praćenju troškova i finansijskom izveštavanju kako bi se osigurala stabilnost i rast poslovanja.",
+        "items": [
+          {
+            "title": "Kontakt",
+            "list": ["+381 69 466 555", "finansije@tehnoplast.co.rs"]
+          },
+          {
+            "title": "Office",
+            "list": ["Kosovskih junaka 20, 34220 Lapovo, Srbija"]
+          }
+        ]
+      },
+      {
+        "category": "Tehnoplast Požarevac",
+        "link": "",
+        "description": "Regionalni centar u Požarevcu omogućava bržu i direktniju komunikaciju sa klijentima u istočnoj Srbiji. Fokusirani smo na pružanje kvalitetne korisničke podrške, prezentaciju proizvoda i lokalnu logistiku.",
+        "items": [
+          {
+            "title": "Kontakt",
+            "list": ["+381 62 159 9173", "pozarevac@tehnoplast.co.rs"]
+          },
+          {
+            "title": "Office",
+            "list": ["Nemanjina, 12000 Požarevac, Srbija"]
+          }
+        ]
+      },
+      {
+        "category": "Krefeld Diesseldorf, Germany",
+        "link": "",
+        "description": "Naše prisustvo u Nemačkoj omogućava direktnu saradnju sa klijentima širom EU tržišta. Kroz Krefeld i Diesseldorf operacije obezbeđujemo bržu isporuku, tehničku podršku i lokalnu dostupnost naših rešenja.",
+        "items": [
+          {
+            "title": "Kontakt",
+            "list": ["+381 62 159 9173", "pozarevac@tehnoplast.co.rs"]
+          },
+          {
+            "title": "Office",
+            "list": ["Krefeld Diesseldorf, Germany"]
+          }
+        ]
+      }
+    ]
+  },
+
+  "O-nama": {
+    "mainTitle": "Tehnoplast PVC i ALU stolarija.",
+    "mainSubtitle": "Tehnoplast je specijalizovan za dizajn, proizvodnju i ugradnju PVC i ALU stolarije, pružajući kvalitetna rešenja za domove i poslovne prostore širom Evrope.",
+    "heading1": "Širom Evrope",
+    "subheading1": "Oblikujemo prostore širom Evrope, spajajući savremeni dizajn, vrhunsku izradu i visokokvalitetne materijale. Naši projekti u Nemačkoj, Francuskoj i Srbiji odražavaju posvećenost detaljima, funkcionalnosti i inovacijama, pružajući rešenja prilagođena specifičnim potrebama klijenata.",
+    "proces": [
+      {
+        "category": "1. Office Contact",
+        "link": "",
+        "description": "Naša strategija omogućava optimizaciju komunikacije, prilagođavanje poslovnim potrebama i usklađivanje sa vašim brendom. Kreiranjem funkcionalnih i estetski usklađenih rešenja, pomažemo vam da ostvarite bolju povezanost sa klijentima, povećate produktivnost i ojačate prepoznatljivost na tržištu.",
+        "items": [
+          {
+            "title": "Kontakt",
+            "list": ["+381 62 466 555", "info@tehnoplast.co.rs"]
+          },
+          {
+            "title": "Office",
+            "list": ["Kosovskih junaka 20, 34220 Lapovo, Srbija"]
+          }
+        ]
+      },
+      {
+        "category": "2. Uzimanje mera",
+        "link": "",
+        "description": "Precizno merenje i stručne konsultacije za savršeno prilagođena rešenja.",
+        "items": [
+          {
+            "title": "Planiranje prostora",
+            "list": [
+              "Analiza potreba i optimizacija radnog okruženja",
+              "Definisanje ključnih elemenata kancelarijskog prostora",
+              "Razumevanje korisničkih zahteva i poslovne dinamike",
+              "Postavljanje strateških ciljeva za efikasnu organizaciju"
+            ]
+          },
+          {
+            "title": "Dizajn i konsultacije",
+            "list": [
+              "Kreiranje funkcionalnog i estetski prilagođenog enterijera",
+              "Optimizacija komunikacionih kanala i kontakt tačaka",
+              "Razvoj modularnih i prilagodljivih radnih jedinica"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "3. Davanje ponuda",
+        "link": "",
+        "description": "Fokusiramo se na tačnost, fleksibilnost i estetsku prezentaciju kako bismo omogućili lako razumevanje i donošenje odluka.",
+        "items": [
+          {
+            "title": "Proces kreiranja ponude",
+            "list": [
+              "Analiza zahteva i definisanje ključnih parametara",
+              "Strateško oblikovanje ponude u skladu sa poslovnim ciljevima",
+              "Jasno strukturisani detalji i tehničke specifikacije"
+            ]
+          },
+          {
+            "title": "Prezentacija i prilagođavanje",
+            "list": [
+              "Vizuelno atraktivna i profesionalno oblikovana dokumentacija",
+              "Transparentnost u cenama, rokovima i uslovima saradnje",
+              "Mogućnost prilagođavanja ponude prema potrebama klijenta"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "4. Izrada stolarije",
+        "link": "",
+        "description": "Naš proces proizvodnje garantuje dugotrajnost, funkcionalnost i estetiku, uz prilagođavanje specifičnim zahtevima klijenata. Koristimo kvalitetne materijale i savremene metode obrade kako bismo obezbedili stolariju koja ispunjava najviše standarde.",
+        "items": [
+          {
+            "title": "Proces izrade",
+            "list": [
+              "Prilagođavanje dimenzija i tehničkih specifikacija",
+              "Korišćenje visokokvalitetnih materijala i precizna obrada",
+              "Testiranje izdržljivosti i završna dorada"
+            ]
+          },
+          {
+            "title": "Dizajn i funkcionalnost",
+            "list": [
+              "Estetski usklađeni detalji i moderni sistemi otvaranja",
+              "Optimizacija izolacije i energetske efikasnosti",
+              "Fleksibilnost u izboru boja, završnih obrada i dodatnih opcija"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "5. Transport i ugradnja",
+        "link": "",
+        "description": "Naš tim osigurava sigurno dopremanje i preciznu montažu, uz poštovanje svih tehničkih standarda i specifičnih zahteva klijenata. Efikasnost, pažnja prema detaljima i minimalno ometanje prostora garantuju brzo i kvalitetno izvođenje radova.",
+        "items": [
+          {
+            "title": "Siguran transport",
+            "list": [
+              "Pažljivo pakovanje i zaštita elemenata",
+              "Pravovremena isporuka na željenu lokaciju",
+              "Pridržavanje svih logističkih i sigurnosnih protokola"
+            ]
+          },
+          {
+            "title": "Profesionalna ugradnja",
+            "list": [
+              "Precizno nivelisanje i postavljanje stolarije",
+              "Osiguravanje optimalne izolacije i funkcionalnosti",
+              "Završi radovi i provera ispravnosti pre predaje klijentu"
+            ]
+          }
+        ]
+      }
+    ],
+    "heading2": "Beskompromisna izrada",
+    "subheading2": "Svaki prostor prilagođavamo vašim željama, pretvarajući ideje u stvarnost pažljivom izradom i vrhunskim materijalima. Naši proizvodi kombinuju dizajn, funkcionalnost i kvalitet, pružajući rešenja skrojena po meri svakog klijenta.",
+    "kontakt": [
+      {
+        "category": "Tehnoplast Lapovo",
+        "link": "",
+        "description": "Kao sedište kompanije, Lapovo predstavlja centar operacija i razvoja. Ovde se odvijaju ključni procesi planiranja, proizvodnje i kontrole kvaliteta, uz poseban fokus na unapređenje komunikacije i brendiranja.",
+        "items": [
+          {
+            "title": "Kontakt",
+            "list": ["+381 62 466 555", "office@tehnoplast.co.rs"]
+          },
+          {
+            "title": "Office",
+            "list": ["Kosovskih junaka 20, 34220 Lapovo, Srbija"]
+          }
+        ]
+      },
+      {
+        "category": "Tehnoplast Finansije",
+        "link": "",
+        "description": "Finansijski sektor Tehnoplasta odgovoran je za transparentno i efikasno upravljanje resursima. Naš tim pruža podršku u planiranju budžeta, praćenju troškova i finansijskom izveštavanju kako bi se osigurala stabilnost i rast poslovanja.",
+        "items": [
+          {
+            "title": "Kontakt",
+            "list": ["+381 69 466 555", "finansije@tehnoplast.co.rs"]
+          },
+          {
+            "title": "Office",
+            "list": ["Kosovskih junaka 20, 34220 Lapovo, Srbija"]
+          }
+        ]
+      },
+      {
+        "category": "Tehnoplast Požarevac",
+        "link": "",
+        "description": "Regionalni centar u Požarevcu omogućava bržu i direktniju komunikaciju sa klijentima u istočnoj Srbiji. Fokusirani smo na pružanje kvalitetne korisničke podrške, prezentaciju proizvoda i lokalnu logistiku.",
+        "items": [
+          {
+            "title": "Kontakt",
+            "list": ["+381 62 159 9173", "pozarevac@tehnoplast.co.rs"]
+          },
+          {
+            "title": "Office",
+            "list": ["Nemanjina, 12000 Požarevac, Srbija"]
+          }
+        ]
+      },
+      {
+        "category": "Krefeld Diesseldorf, Germany",
+        "link": "",
+        "description": "Naše prisustvo u Nemačkoj omogućava direktnu saradnju sa klijentima širom EU tržišta. Kroz Krefeld i Diesseldorf operacije obezbeđujemo bržu isporuku, tehničku podršku i lokalnu dostupnost naših rešenja.",
+        "items": [
+          {
+            "title": "Kontakt",
+            "list": ["+381 62 159 9173", "pozarevac@tehnoplast.co.rs"]
+          },
+          {
+            "title": "Office",
+            "list": ["Krefeld Diesseldorf, Germany"]
+          }
+        ]
+      }
+    ]
+  },
+
+  "Menu": {
+    "products": [
+      {
+        "name": "Prozori",
+        "link": "/prozori"
+      },
+      {
+        "name": "Vrata",
+        "link": "/vrata"
+      },
+      {
+        "name": "Sistemi ostakljivanja",
+        "link": "/sistemi-ostakljivanja"
+      },
+      {
+        "name": "Fasade",
+        "link": "/fasade"
+      },
+      {
+        "name": "Pergole",
+        "link": "/pergole"
+      },
+      {
+        "name": "Klizni sistemi",
+        "link": "/klizni-sistemi"
+      },
+      {
+        "name": "Garažna vrata",
+        "link": "/garazna-vrata"
+      },
+      {
+        "name": "Ograde i gelenderi",
+        "link": "/ograde-i-gelenderi"
+      },
+      {
+        "name": "Prateća oprema",
+        "link": "/prateca-oprema"
+      }
+    ],
+    "linx": [
+      {
+        "name": "Početna",
+        "link": "/"
+      },
+      {
+        "name": "O nama",
+        "link": "/o-nama"
+      },
+      {
+        "name": "Kontakt",
+        "link": "/kontakt"
+      }
+    ],
+    "jezik":"Jezik",
+    "kontakt":"Kontakt"
+  }
 }

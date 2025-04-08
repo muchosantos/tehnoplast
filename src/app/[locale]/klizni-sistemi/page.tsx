@@ -3,14 +3,16 @@ import CategoryHero from "@/components/ui/CategoryHero";
 import Gallery from "@/components/ui/Gallery";
 import Overview from "@/components/ui/Overview";
 import { akordionklizniProducts, klasicnoklizniProducts, podiznoklizniProducts, uskocnoklizniProducts } from "@/data";
+import { useTranslations } from "next-intl";
 
 export default function KlizniSistemi() {
+    const t = useTranslations("Klizni-sistemi");
   return (
     <MainLayout color="">
       <main>
         <CategoryHero
-          heading="Tehnoplast Klizni sistemi"
-          description="Eralux rešenja kombinuju moderan dizajn, visok nivo sigurnosti, funkcionalnost i estetsku perfekciju, prilagođena vašim potrebama."
+          heading={t("mainTitle")}
+          description={t('mainSubtitle')}
           image="/images/midjoruney/klizni.jpg"
         />
 
@@ -18,8 +20,8 @@ export default function KlizniSistemi() {
           accord={false}
           accordData={null}
           btn={false}
-          title="Podizno-klizni sistemi"
-          subtitle="Praktično i estetski sofisticirano rešenje koje omogućava lako otvaranje velikih staklenih površina uz maksimalnu stabilnost i toplotnu izolaciju. Idealan izbor za prostore koji teže prozračnosti, prirodnom osvetljenju i neometanom pogledu."
+          title={t('title1')}
+          subtitle={t('subtitle1')}
           text="Ukoliko imate dodatnih pitanja budite slobodni da nas kontaktirate."
           btnText="Kontakt"
           link="link"
@@ -34,8 +36,8 @@ export default function KlizniSistemi() {
           accord={false}
           accordData={null}
           btn={false}
-          title="Uskočno-klizni sistemi"
-          subtitle="Kompaktno i funkcionalno rešenje koje kombinuje lakoću otvaranja sa visokim nivoom termo i zvučne izolacije. Idealan izbor za prostore koji zahtevaju efikasnost, uštedu prostora i moderan dizajn."
+          title={t('title2')}
+          subtitle={t('subtitle2')}
           text="Ukoliko imate dodatnih pitanja budite slobodni da nas kontaktirate."
           btnText="Kontakt"
           link="link"
@@ -50,8 +52,8 @@ export default function KlizniSistemi() {
           accord={false}
           accordData={null}
           btn={false}
-          title="Klasično-klizni sistemi"
-          subtitle="Jednostavno i praktično rešenje koje omogućava lako klizno otvaranje uz optimizaciju prostora. Odlikuju se pouzdanošću, dugotrajnošću i dobrim izolacionim svojstvima, čineći ih idealnim za različite vrste objekata."
+          title={t('title3')}
+          subtitle={t('subtitle3')}
           text="Ukoliko imate dodatnih pitanja budite slobodni da nas kontaktirate."
           btnText="Kontakt"
           link="link"
@@ -66,8 +68,8 @@ export default function KlizniSistemi() {
           accord={false}
           accordData={null}
           btn={false}
-          title="Akordion sistemi"
-          subtitle="Fleksibilno i funkcionalno rešenje koje omogućava potpuno otvaranje prostora zahvaljujući sklopivom mehanizmu. Idealni za velike otvore, pružaju maksimalnu prilagodljivost, uštedu prostora i moderan estetski izgled."
+          title={t('title4')}
+          subtitle={t('subtitle4')}
           text="Ukoliko imate dodatnih pitanja budite slobodni da nas kontaktirate."
           btnText="Kontakt"
           link="link"
