@@ -135,7 +135,7 @@ const Sidemenu: React.FC<SidemenuProps> = ({ open }) => {
             <div>
               <div className="mb-4 lg:hidden">
                 <span className="font-extralight text-[1rem] mb-4 block tracking-tight">
-                  Jezik
+                {t('jezik')}
                 </span>
                 <ul className="flex gap-4 items-center">
                   {flagsItems.map((flag, i) => (
@@ -157,7 +157,7 @@ const Sidemenu: React.FC<SidemenuProps> = ({ open }) => {
 
               <div className="my-6">
                 <span className="font-extralight text-[1rem] tracking-tight">
-                  Proizvodi
+                  Menu
                 </span>
                 <ul className="">
                   {products.map((product, i) => (
@@ -174,7 +174,7 @@ const Sidemenu: React.FC<SidemenuProps> = ({ open }) => {
 
               <div className="lg:hidden">
                 <span className="font-extralight text-[1rem] tracking-tight">
-                  Kontakt
+                {t('kontakt')}
                 </span>
                 <a
                   href="mailto:finansije@tehnoplast.co.rs"
